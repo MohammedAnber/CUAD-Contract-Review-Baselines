@@ -1,0 +1,381 @@
+2026-10-17 19:42:09,750 [INFO] === Starting Phase 2 v2: Risk Allocation Analysis (Descriptive) ===
+2026-10-17 19:42:09,750 [INFO] Model: qwen2.5:3b | Temperature: 0 | Perspective: Client/Buyer
+2026-10-17 19:42:09,751 [INFO] Approach: Factual description (no risk level classification)
+2026-10-17 19:42:09,751 [INFO] Output File: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_v2_results.jsonl
+2026-10-17 19:42:09,777 [INFO] Loaded 1679 clause texts from test metadata.
+2026-10-17 19:42:09,799 [INFO] Loaded 1679 classification records.
+2026-10-17 19:42:09,822 [INFO] Filtered 285 clauses across 5 target categories.
+2026-10-17 19:44:34,368 [INFO] [1/285] clause-21 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement at any time upon an '
+2026-10-17 19:46:45,410 [INFO] [2/285] clause-31 | Cap On Liability | status=success | quote_valid=False | obs='The Client gains a cap on liability for certain types of damages, but the cap is'
+2026-10-17 19:49:39,019 [INFO] [3/285] clause-32 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant protection against certain types of damages, but '
+2026-10-17 19:51:17,710 [INFO] [4/285] clause-35 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a cap on liability of $1,000,000 per occurrence and $2,00'
+2026-10-17 19:52:27,340 [INFO] [5/285] clause-55 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement at any time upon prior wri'
+2026-10-17 19:54:22,096 [INFO] [6/285] clause-80 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses all rights to the intellectual property created by the Ve'
+2026-10-17 19:58:08,204 [INFO] [clause-115] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:00:25,459 [WARNING] [clause-115] Retry also failed: No JSON object found in response
+2026-10-17 20:00:25,509 [INFO] [7/285] clause-115 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 20:01:54,588 [INFO] [8/285] clause-116 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains protection against liability for loss of profits, costs of proc'
+2026-10-17 20:03:55,311 [INFO] [clause-117] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:05:11,620 [WARNING] [clause-117] Retry also failed: No JSON object found in response
+2026-10-17 20:05:11,671 [INFO] [9/285] clause-117 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 20:07:41,162 [INFO] [clause-118] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:09:03,864 [WARNING] [clause-118] Retry also failed: No JSON object found in response
+2026-10-17 20:09:03,919 [INFO] [10/285] clause-118 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 20:11:01,467 [INFO] [clause-119] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:12:22,408 [WARNING] [clause-119] Retry also failed: No JSON object found in response
+2026-10-17 20:12:22,463 [INFO] [11/285] clause-119 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 20:13:35,456 [INFO] [12/285] clause-120 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant protection against liability for lost profits, co'
+2026-10-17 20:14:54,958 [INFO] [13/285] clause-121 | Uncapped Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure for any damages, including'
+2026-10-17 20:16:52,165 [INFO] [14/285] clause-122 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer is limited in bringing legal actions more than two years after '
+2026-10-17 20:18:49,253 [INFO] [15/285] clause-123 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer gains limited liability protection for Changepoint's breach of "
+2026-10-17 20:21:14,322 [INFO] [clause-124] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:22:25,190 [INFO] [16/285] clause-124 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from Changepoint in the event of an In'
+2026-10-17 20:24:16,061 [INFO] [17/285] clause-126 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-17 20:25:40,775 [INFO] [clause-127] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:27:13,536 [WARNING] [clause-127] Retry also failed: No JSON object found in response
+2026-10-17 20:27:13,591 [INFO] [18/285] clause-127 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 20:28:44,611 [INFO] [19/285] clause-145 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyor gains the right to terminate the agreement at any time with onl'
+2026-10-17 20:30:32,583 [INFO] [20/285] clause-152 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer will lose the right to use the Terminated Scaffold and its asso'
+2026-10-17 20:32:11,571 [INFO] [21/285] clause-153 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer is granting the Vendor/contractor the right to assign IP rights'
+2026-10-17 20:33:59,506 [INFO] [22/285] clause-154 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to use the OntoChem Inventions, including the r'
+2026-10-17 20:35:46,892 [INFO] [23/285] clause-155 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer (Anixa) gains ownership of all Inventions other than those crea'
+2026-10-17 20:37:14,986 [INFO] [24/285] clause-163 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure as the cap only protects O'
+2026-10-17 20:38:43,097 [INFO] [25/285] clause-177 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement for convenience at any tim'
+2026-10-17 20:40:27,976 [INFO] [26/285] clause-181 | Cap On Liability | status=success | quote_valid=True | obs="The clause significantly limits the Client's exposure to potential losses from t"
+2026-10-17 20:42:07,157 [INFO] [27/285] clause-192 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to use the proprietary technology for producing'
+2026-10-17 20:43:41,801 [INFO] [28/285] clause-197 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to retain any IP rights for the improvements ma'
+2026-10-17 20:44:57,986 [INFO] [29/285] clause-215 | Termination For Convenience | status=success | quote_valid=False | obs="The Client/Buyer gains the right to terminate the agreement with only 60 days' n"
+2026-10-17 20:46:28,422 [INFO] [30/285] clause-234 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer loses the right to grant any rights to a third party, which cou'
+2026-10-17 20:48:35,195 [INFO] [31/285] clause-239 | Termination For Convenience | status=success | quote_valid=False | obs='The Client/Buyer (Licensee) gains the right to terminate the agreement for conve'
+2026-10-17 20:49:47,740 [INFO] [32/285] clause-241 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement at their sole discre'
+2026-10-17 20:51:15,757 [INFO] [33/285] clause-243 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-17 20:52:45,339 [INFO] [34/285] clause-299 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer risks losing control over the assigned IP, which could include '
+2026-10-17 20:54:10,528 [INFO] [35/285] clause-300 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to use the Duval Identification with items othe'
+2026-10-17 20:56:11,541 [INFO] [clause-302] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 20:57:41,237 [WARNING] [clause-302] Retry also failed: No JSON object found in response
+2026-10-17 20:57:41,288 [INFO] [36/285] clause-302 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 20:59:16,911 [INFO] [37/285] clause-303 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains no protection against indirect, incidental, reliance, spe'
+2026-10-17 21:00:52,401 [INFO] [38/285] clause-305 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the Agreement for convenience, but faces'
+2026-10-17 21:02:10,040 [INFO] [39/285] clause-322 | Exclusivity | status=success | quote_valid=True | obs="The Client/Buyer gains the exclusive right to use Vitamin Shoppe's vitamin produ"
+2026-10-17 21:04:14,119 [INFO] [clause-328] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 21:05:37,963 [WARNING] [clause-328] Retry also failed: No JSON object found in response
+2026-10-17 21:05:38,002 [INFO] [40/285] clause-328 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 21:07:12,163 [INFO] [clause-329] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 21:08:38,052 [WARNING] [clause-329] Retry also failed: No JSON object found in response
+2026-10-17 21:08:38,115 [INFO] [41/285] clause-329 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 21:10:06,876 [INFO] [42/285] clause-341 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Licensee) faces significant operational exposure as they are r'
+2026-10-17 21:12:05,104 [INFO] [43/285] clause-347 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement for convenience afte'
+2026-10-17 21:12:58,963 [INFO] [44/285] clause-349 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Licensee) faces significant operational exposure. Bioeq has th'
+2026-10-17 21:13:52,503 [INFO] [clause-379] Parse failed attempt 1: Missing fields: {'supporting_quote', 'client_risk_observation'}. Retrying...
+2026-10-17 21:14:06,181 [WARNING] [clause-379] Retry also failed: Missing fields: {'supporting_quote', 'client_risk_observation'}
+2026-10-17 21:14:06,214 [INFO] [45/285] clause-379 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 21:14:19,668 [INFO] [clause-380] Parse failed attempt 1: Missing fields: {'supporting_quote', 'client_risk_observation'}. Retrying...
+2026-10-17 21:14:33,947 [WARNING] [clause-380] Retry also failed: Missing fields: {'supporting_quote', 'client_risk_observation'}
+2026-10-17 21:14:34,027 [INFO] [46/285] clause-380 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 21:16:15,711 [INFO] [47/285] clause-408 | Termination For Convenience | status=success | quote_valid=True | obs="The Client gains the right to terminate the agreement at any time with 90 days' "
+2026-10-17 21:18:47,884 [INFO] [48/285] clause-412 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to control the ownership of the copyrightable W'
+2026-10-17 21:20:14,911 [INFO] [49/285] clause-413 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer is at risk of losing control over the Work Product, as the Vend'
+2026-10-17 21:21:52,357 [INFO] [50/285] clause-414 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer is granting the Vendor/contractor the right to own all IP creat'
+2026-10-17 21:23:42,025 [INFO] [51/285] clause-415 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer risks losing control over the intellectual property created dur'
+2026-10-17 21:25:56,208 [INFO] [clause-417] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 21:27:31,342 [INFO] [52/285] clause-417 | IP Ownership Assignment | status=success | quote_valid=False | obs='The Client/Buyer loses the right to use any work product created by the Vendor/c'
+2026-10-17 21:29:36,519 [INFO] [53/285] clause-447 | Cap On Liability | status=success | quote_valid=False | obs='The Client gains protection from liability for amounts greater than the amount e'
+2026-10-17 21:31:35,787 [INFO] [54/285] clause-448 | Uncapped Liability | status=success | quote_valid=True | obs='The Client/Buyer gains no specific protective language in this clause. The Clien'
+2026-10-17 21:33:07,359 [INFO] [55/285] clause-449 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer is capped on their liability to a specific amount based on thei'
+2026-10-17 21:37:39,778 [INFO] [56/285] clause-450 | Uncapped Liability | status=success | quote_valid=True | obs='The Client gains broad protection against various types of damages, losses, and '
+2026-10-17 21:39:15,303 [INFO] [57/285] clause-471 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer has the right to terminate the agreement at any time during a r'
+2026-10-17 21:41:21,940 [INFO] [58/285] clause-479 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement for convenience after a 10'
+2026-10-17 21:43:22,937 [INFO] [59/285] clause-494 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from potential indemnification claims '
+2026-10-17 21:45:16,219 [INFO] [60/285] clause-495 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer is protected from any contribution by the SMBC Unit-Holder in e'
+2026-10-17 21:47:13,346 [INFO] [61/285] clause-496 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a cap on the liability of the SMBC Unit-Holder, which cou'
+2026-10-17 21:48:48,903 [INFO] [62/285] clause-510 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement for convenience at a'
+2026-10-17 21:50:49,718 [INFO] [63/285] clause-546 | Uncapped Liability | status=success | quote_valid=True | obs='The Client gains broad protection against various types of breaches and miscondu'
+2026-10-17 21:52:10,560 [INFO] [64/285] clause-547 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant protection against certain types of damages, but '
+2026-10-17 21:53:27,816 [INFO] [65/285] clause-548 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited liability protection for breaches of the Agreemen'
+2026-10-17 21:55:25,307 [INFO] [66/285] clause-575 | Termination For Convenience | status=success | quote_valid=False | obs='The Client/Buyer (Licensee) loses the right to terminate the agreement for conve'
+2026-10-17 21:57:31,664 [INFO] [clause-584] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 21:58:59,240 [WARNING] [clause-584] Retry also failed: No JSON object found in response
+2026-10-17 21:58:59,336 [INFO] [67/285] clause-584 | Termination For Convenience | status=failed | quote_valid=False | obs=''
+2026-10-17 22:02:23,900 [INFO] [68/285] clause-585 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (Licensee) is limited in their liability to the amount paid for'
+2026-10-17 22:04:58,994 [INFO] [clause-586] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 22:06:40,391 [WARNING] [clause-586] Retry also failed: No JSON object found in response
+2026-10-17 22:06:40,454 [INFO] [69/285] clause-586 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 22:08:18,054 [INFO] [70/285] clause-587 | Cap On Liability | status=success | quote_valid=True | obs="The clause limits the Client/Buyer's remedies to the specified remedies, which m"
+2026-10-17 22:10:07,172 [INFO] [clause-588] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 22:11:49,837 [WARNING] [clause-588] Retry also failed: No JSON object found in response
+2026-10-17 22:11:50,236 [INFO] [71/285] clause-588 | Termination For Convenience | status=failed | quote_valid=False | obs=''
+2026-10-17 22:14:27,689 [INFO] [clause-623] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 22:16:12,041 [INFO] [72/285] clause-623 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses all rights to the intellectual property (IP) created or c'
+2026-10-17 22:19:09,446 [INFO] [73/285] clause-638 | Termination For Convenience | status=success | quote_valid=False | obs='The Client/Buyer gains the right to terminate the agreement for convenience at a'
+2026-10-17 22:21:56,367 [INFO] [74/285] clause-645 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer gains protection from the other party's liability under Section"
+2026-10-17 22:24:37,808 [INFO] [clause-646] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 22:26:23,759 [WARNING] [clause-646] Retry also failed: No JSON object found in response
+2026-10-17 22:26:23,817 [INFO] [75/285] clause-646 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 22:28:07,980 [INFO] [clause-647] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 22:30:05,330 [WARNING] [clause-647] Retry also failed: No JSON object found in response
+2026-10-17 22:30:05,406 [INFO] [76/285] clause-647 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 22:32:12,006 [INFO] [77/285] clause-648 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a cap on liability for infringement or alleged infringeme'
+2026-10-17 22:35:12,532 [INFO] [78/285] clause-673 | Cap On Liability | status=success | quote_valid=False | obs='The Client/Buyer faces financial exposure for loading and unloading services, as'
+2026-10-17 22:37:34,504 [INFO] [79/285] clause-688 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure if a claim is filed agains'
+2026-10-17 22:39:15,582 [INFO] [80/285] clause-689 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer gains protection against Carrier's liability for lost profits a"
+2026-10-17 22:40:55,414 [INFO] [81/285] clause-703 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains an exclusive trade area, which could limit their ability '
+2026-10-17 22:42:31,176 [INFO] [82/285] clause-706 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to concentrate marketing efforts in their Exclu'
+2026-10-17 22:44:12,971 [INFO] [83/285] clause-707 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to sell or lease Products within their Exclusiv'
+2026-10-17 22:46:01,753 [INFO] [84/285] clause-708 | Exclusivity | status=success | quote_valid=True | obs='The Client gains exclusive access to the Exclusive Territory for soliciting cust'
+2026-10-17 22:48:08,691 [INFO] [85/285] clause-709 | Exclusivity | status=success | quote_valid=False | obs='The Client/Buyer gains the exclusive right to solicit customers for the Products'
+2026-10-17 22:49:44,743 [INFO] [86/285] clause-711 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to not be targeted or solicited by the Vendor f'
+2026-10-17 22:50:51,151 [INFO] [87/285] clause-712 | Exclusivity | status=success | quote_valid=True | obs='The Client gains exclusive access to the Exclusive Territory for soliciting cust'
+2026-10-17 22:52:38,363 [INFO] [88/285] clause-737 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-17 22:54:36,798 [INFO] [89/285] clause-748 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Emerald) faces significant exposure as the termination right i'
+2026-10-17 22:56:15,644 [INFO] [90/285] clause-749 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement at any time with 30 '
+2026-10-17 22:58:13,929 [INFO] [91/285] clause-766 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to retain any IP rights in the Joint Improvemen'
+2026-10-17 23:00:30,348 [INFO] [92/285] clause-813 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to have Neoforma provide exclusive product list'
+2026-10-17 23:02:33,171 [INFO] [93/285] clause-818 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer (Neoforma) loses the right to independently use the Product Lis'
+2026-10-17 23:04:14,506 [INFO] [94/285] clause-819 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the exclusive right to arrange for the sale of all advert'
+2026-10-17 23:06:18,893 [INFO] [95/285] clause-821 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to use all VerticalNet Medical Product Listings'
+2026-10-17 23:08:56,117 [INFO] [clause-857] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 23:10:45,123 [WARNING] [clause-857] Retry also failed: No JSON object found in response
+2026-10-17 23:10:45,233 [INFO] [96/285] clause-857 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 23:12:41,067 [INFO] [clause-859] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 23:14:33,692 [WARNING] [clause-859] Retry also failed: No JSON object found in response
+2026-10-17 23:14:33,755 [INFO] [97/285] clause-859 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-17 23:21:21,899 [INFO] [clause-881] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-17 23:23:49,662 [WARNING] [clause-881] Retry also failed: No JSON object found in response
+2026-10-17 23:23:49,706 [INFO] [98/285] clause-881 | Termination For Convenience | status=failed | quote_valid=False | obs=''
+2026-10-17 23:27:06,832 [INFO] [99/285] clause-882 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to receive all water conveyance pipelines from '
+2026-10-17 23:29:53,562 [INFO] [100/285] clause-913 | Uncapped Liability | status=success | quote_valid=True | obs='The Client/Buyer gains broad protection against liability for any special, indir'
+2026-10-17 23:31:46,777 [INFO] [101/285] clause-914 | Uncapped Liability | status=success | quote_valid=True | obs='The Client faces significant financial and operational exposure due to the broad'
+2026-10-17 23:34:13,701 [INFO] [102/285] clause-934 | Cap On Liability | status=success | quote_valid=False | obs='The Client gains a significant limitation on liability for indirect, incidental,'
+2026-10-17 23:37:52,399 [INFO] [103/285] clause-964 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement at any time without '
+2026-10-17 23:39:31,082 [INFO] [104/285] clause-966 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer gains limited protection from the Sponsor's liability, but the "
+2026-10-17 23:41:33,874 [INFO] [105/285] clause-982 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer risks losing control over the IP they are purchasing, as the Ve'
+2026-10-17 23:43:18,648 [INFO] [106/285] clause-983 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to publish the research, but the scope of this '
+2026-10-17 23:45:08,135 [INFO] [107/285] clause-1000 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement at any time without any ju'
+2026-10-17 23:47:17,082 [INFO] [108/285] clause-1009 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to promote the Tests in the Territory and to pe'
+2026-10-17 23:49:36,253 [INFO] [109/285] clause-1019 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains protection against special, incidental, and consequential'
+2026-10-17 23:51:02,604 [INFO] [110/285] clause-1020 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains protection against special, incidental, consequential, or punit'
+2026-10-17 23:53:03,852 [INFO] [111/285] clause-1023 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to use the Assay and Selector technology and al'
+2026-10-17 23:54:55,308 [INFO] [112/285] clause-1033 | Termination For Convenience | status=success | quote_valid=False | obs='The Client/Buyer gains the right to terminate the agreement at any time with 30 '
+2026-10-17 23:56:55,409 [INFO] [113/285] clause-1043 | Exclusivity | status=success | quote_valid=False | obs='The Client/Buyer gains the right to designate XC as an associate sponsor and the'
+2026-10-17 23:58:58,684 [INFO] [114/285] clause-1044 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 00:01:09,666 [INFO] [115/285] clause-1049 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyor's financial exposure to potential liabilities from AJR is cappe"
+2026-10-18 00:03:27,743 [INFO] [116/285] clause-1050 | Uncapped Liability | status=success | quote_valid=True | obs='The Client/Buyer gains no specific protective language in the clause. The Client'
+2026-10-18 00:05:28,998 [INFO] [117/285] clause-1082 | Termination For Convenience | status=success | quote_valid=False | obs='The Client/Buyer gains the right to terminate the agreement at any time, but thi'
+2026-10-18 00:06:47,344 [INFO] [118/285] clause-1084 | Termination For Convenience | status=success | quote_valid=False | obs="The Client gains the right to terminate the agreement at any time with 90 days' "
+2026-10-18 00:08:54,333 [INFO] [119/285] clause-1088 | Cap On Liability | status=success | quote_valid=False | obs='The Client/Buyer gains the right to have the Developer assume any or all of the '
+2026-10-18 00:11:02,956 [INFO] [120/285] clause-1092 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Distributor) gains the right to terminate the agreement if the'
+2026-10-18 00:13:12,244 [INFO] [121/285] clause-1097 | Cap On Liability | status=success | quote_valid=False | obs='The Client/Buyer gains limited protection against certain types of damages, but '
+2026-10-18 00:16:00,614 [INFO] [clause-1098] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 00:17:55,167 [WARNING] [clause-1098] Retry also failed: No JSON object found in response
+2026-10-18 00:17:55,233 [INFO] [122/285] clause-1098 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 00:20:39,403 [INFO] [123/285] clause-1124 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains the right to have the Servicer acquire the Receivables as'
+2026-10-18 00:22:29,064 [INFO] [124/285] clause-1164 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (the Client) gains the right to terminate the agreement for con'
+2026-10-18 00:25:20,626 [INFO] [125/285] clause-1185 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 00:27:34,369 [INFO] [126/285] clause-1214 | Uncapped Liability | status=success | quote_valid=True | obs="The clause limits the Vendor/service provider's liability for special, incidenta"
+2026-10-18 00:29:16,379 [INFO] [127/285] clause-1215 | Uncapped Liability | status=success | quote_valid=False | obs="The clause limits the Vendor/service provider's liability for special, incidenta"
+2026-10-18 00:31:46,077 [INFO] [128/285] clause-1237 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the employment of the Executive under th'
+2026-10-18 00:33:53,232 [INFO] [129/285] clause-1238 | Termination For Convenience | status=success | quote_valid=False | obs='The Client/Buyer (the Executive) loses the right to terminate for convenience, w'
+2026-10-18 00:36:04,556 [INFO] [130/285] clause-1239 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains full ownership of the Company IP, including any work prod'
+2026-10-18 00:37:17,042 [INFO] [131/285] clause-1240 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains full ownership of the Company IP, including any future ri'
+2026-10-18 00:39:24,188 [INFO] [132/285] clause-1258 | Uncapped Liability | status=success | quote_valid=True | obs='The Client gains the right to uncapped liability for breaches of Confidential In'
+2026-10-18 00:41:46,329 [INFO] [133/285] clause-1259 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited liability protection from the Joint Venture Compa'
+2026-10-18 00:43:24,330 [INFO] [134/285] clause-1260 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant protection against certain types of damages, but '
+2026-10-18 00:45:02,024 [INFO] [135/285] clause-1274 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement for convenience without an'
+2026-10-18 00:46:57,811 [INFO] [136/285] clause-1275 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer gains a significant limitation on eGAIN's liability, particular"
+2026-10-18 00:49:13,154 [INFO] [137/285] clause-1276 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains the right to have the Software or eGain System modified t'
+2026-10-18 00:51:01,917 [INFO] [138/285] clause-1277 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from eGain for a breach of warranty, b'
+2026-10-18 00:53:08,790 [INFO] [139/285] clause-1278 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to have their monthly fee for Hosting Services '
+2026-10-18 00:55:04,346 [INFO] [140/285] clause-1279 | Cap On Liability | status=success | quote_valid=True | obs="The Client gains a significant limitation on eGAIN's liability, but faces financ"
+2026-10-18 00:56:57,129 [INFO] [141/285] clause-1280 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer's financial exposure to downtime and breach of the hosting serv"
+2026-10-18 00:59:24,732 [INFO] [clause-1297] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 01:01:07,685 [WARNING] [clause-1297] Retry also failed: No JSON object found in response
+2026-10-18 01:01:07,755 [INFO] [142/285] clause-1297 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 01:03:24,303 [INFO] [clause-1298] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 01:05:06,864 [WARNING] [clause-1298] Retry also failed: No JSON object found in response
+2026-10-18 01:05:06,928 [INFO] [143/285] clause-1298 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 01:07:38,305 [INFO] [clause-1299] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 01:09:22,926 [WARNING] [clause-1299] Retry also failed: No JSON object found in response
+2026-10-18 01:09:23,006 [INFO] [144/285] clause-1299 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 01:11:28,437 [INFO] [145/285] clause-1331 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer's financial exposure to potential losses is capped at half of t"
+2026-10-18 01:13:53,611 [INFO] [146/285] clause-1332 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant protection against certain types of damages'
+2026-10-18 01:16:44,771 [INFO] [clause-1333] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 01:18:33,675 [INFO] [147/285] clause-1333 | Uncapped Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial and operational exposure due to the'
+2026-10-18 01:20:39,391 [INFO] [148/285] clause-1334 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains no protection from the Licensor for any losses or damages'
+2026-10-18 01:22:38,419 [INFO] [149/285] clause-1335 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from the Licensor and its affiliates f'
+2026-10-18 01:24:35,861 [INFO] [150/285] clause-1346 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer (the party receiving services) gains the right to purchase all '
+2026-10-18 01:26:48,283 [INFO] [151/285] clause-1358 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant limitation on liability, but only for breac'
+2026-10-18 01:28:48,050 [INFO] [152/285] clause-1359 | Cap On Liability | status=success | quote_valid=False | obs="The Client/Buyer (SUTROVAX) is protected from SUTRO's liability for third-party "
+2026-10-18 01:31:29,868 [INFO] [clause-1360] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 01:33:10,393 [WARNING] [clause-1360] Retry also failed: No JSON object found in response
+2026-10-18 01:33:10,462 [INFO] [153/285] clause-1360 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 01:34:41,728 [INFO] [154/285] clause-1361 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant limitation on their liability for damages, which '
+2026-10-18 01:37:00,355 [INFO] [155/285] clause-1401 | IP Ownership Assignment | status=success | quote_valid=False | obs='The Client/Buyer loses the right to retain any ownership or use of the improveme'
+2026-10-18 01:39:03,609 [INFO] [156/285] clause-1438 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the exclusive right and responsibility to receive and acc'
+2026-10-18 01:40:28,928 [INFO] [157/285] clause-1439 | Exclusivity | status=success | quote_valid=False | obs='The Client/Buyer gains the right to exclusively purchase all requirements for su'
+2026-10-18 01:42:44,471 [INFO] [158/285] clause-1441 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (CytoDyn) faces significant financial exposure if Vyera decides'
+2026-10-18 01:44:35,802 [INFO] [159/285] clause-1449 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Vyera) faces significant exposure as they are required to meet'
+2026-10-18 01:46:39,066 [INFO] [160/285] clause-1451 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to use the Inventions created by the Vendor/con'
+2026-10-18 01:48:26,974 [INFO] [161/285] clause-1452 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to receive assignments, filings, applications, '
+2026-10-18 01:50:22,810 [INFO] [162/285] clause-1453 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to receive all Trademarks acquired by Vyera, wi'
+2026-10-18 01:52:57,742 [INFO] [clause-1454] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 01:54:05,121 [INFO] [163/285] clause-1454 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to use any trade dress, logos, slogans, designs'
+2026-10-18 01:56:34,819 [INFO] [164/285] clause-1456 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains exclusive rights to implement and make final decisions re'
+2026-10-18 01:59:52,333 [INFO] [clause-1466] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 02:02:17,914 [WARNING] [clause-1466] Retry also failed: No JSON object found in response
+2026-10-18 02:02:18,288 [INFO] [165/285] clause-1466 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 02:04:43,205 [INFO] [166/285] clause-1467 | Cap On Liability | status=success | quote_valid=True | obs="The clause limits the Client/Buyer's liability for royalties and milestones to t"
+2026-10-18 02:06:38,995 [INFO] [clause-1468] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 02:08:26,404 [WARNING] [clause-1468] Retry also failed: No JSON object found in response
+2026-10-18 02:08:26,466 [INFO] [167/285] clause-1468 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 02:10:56,559 [INFO] [168/285] clause-1493 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains the protection of a cap on liability for certain types of'
+2026-10-18 02:12:25,732 [INFO] [169/285] clause-1494 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains the protection of a cap on liability for certain types of'
+2026-10-18 02:14:26,341 [INFO] [170/285] clause-1536 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement for convenience under cert'
+2026-10-18 02:16:10,919 [INFO] [171/285] clause-1561 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement at any time with 30 '
+2026-10-18 02:19:23,789 [INFO] [172/285] clause-1570 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure in the event of intellectu'
+2026-10-18 02:21:49,652 [INFO] [173/285] clause-1571 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure as the cap only protects t'
+2026-10-18 02:23:41,746 [INFO] [174/285] clause-1572 | Uncapped Liability | status=success | quote_valid=True | obs='The Client faces significant financial exposure as the clause does not limit the'
+2026-10-18 02:25:21,681 [INFO] [175/285] clause-1573 | Uncapped Liability | status=success | quote_valid=True | obs='The Client gains broad protection against various types of damages, including lo'
+2026-10-18 02:27:45,870 [INFO] [176/285] clause-1574 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains limited liability protection for the warranty provided, but onl'
+2026-10-18 02:31:03,159 [INFO] [clause-1601] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 02:34:08,261 [WARNING] [clause-1601] Retry also failed: No JSON object found in response
+2026-10-18 02:34:08,332 [INFO] [177/285] clause-1601 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 02:37:03,162 [INFO] [clause-1602] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 02:39:21,729 [WARNING] [clause-1602] Retry also failed: No JSON object found in response
+2026-10-18 02:39:23,351 [INFO] [178/285] clause-1602 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 02:41:42,556 [INFO] [179/285] clause-1616 | Termination For Convenience | status=success | quote_valid=True | obs="The Client gains the right to terminate the agreement after 180 days' written no"
+2026-10-18 02:43:44,935 [INFO] [180/285] clause-1629 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant protection against certain types of damages'
+2026-10-18 02:46:16,343 [INFO] [181/285] clause-1642 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 02:48:07,242 [INFO] [182/285] clause-1643 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (the Company) gains the right to terminate the agreement with 9'
+2026-10-18 02:50:09,065 [INFO] [183/285] clause-1644 | Termination For Convenience | status=success | quote_valid=True | obs="The Client gains the right to terminate the agreement with 60 days' prior writte"
+2026-10-18 02:51:46,904 [INFO] [184/285] clause-1647 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer loses the right to terminate for convenience, which could be a '
+2026-10-18 02:53:33,596 [INFO] [185/285] clause-1649 | IP Ownership Assignment | status=success | quote_valid=False | obs='The Client/Buyer loses all rights to the Web Pages and associated Proprietary Ri'
+2026-10-18 02:56:06,504 [INFO] [186/285] clause-1708 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement at any time with just 30 d'
+2026-10-18 02:58:21,664 [INFO] [187/285] clause-1709 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement for convenience with'
+2026-10-18 03:00:37,203 [INFO] [188/285] clause-1713 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from liability for certain types of da'
+2026-10-18 03:02:45,634 [INFO] [189/285] clause-1725 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (PPI) gains the right to terminate the agreement at the end of '
+2026-10-18 03:04:36,361 [INFO] [190/285] clause-1728 | Exclusivity | status=success | quote_valid=True | obs='The Client gains the right to market, distribute, or sell a Competing Product du'
+2026-10-18 03:06:19,240 [INFO] [191/285] clause-1730 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to exclusively receive services from the Vendor'
+2026-10-18 03:07:47,147 [INFO] [192/285] clause-1732 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (PPI) faces significant operational exposure as they are requir'
+2026-10-18 03:09:49,718 [INFO] [193/285] clause-1733 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (PPI) faces a significant financial exposure if EKR exercises t'
+2026-10-18 03:12:12,881 [INFO] [clause-1734] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 03:14:11,540 [WARNING] [clause-1734] Retry also failed: No JSON object found in response
+2026-10-18 03:14:11,616 [INFO] [194/285] clause-1734 | Termination For Convenience | status=failed | quote_valid=False | obs=''
+2026-10-18 03:15:57,306 [INFO] [195/285] clause-1737 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement if the other party c'
+2026-10-18 03:17:48,968 [WARNING] [clause-1742] Attempt 1 exception: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/generate
+2026-10-18 03:18:58,404 [WARNING] [clause-1742] Retry exception: 500 Server Error: Internal Server Error for url: http://127.0.0.1:11434/api/generate
+2026-10-18 03:18:58,644 [INFO] [196/285] clause-1742 | IP Ownership Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 03:20:46,162 [INFO] [197/285] clause-1746 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to use the Domain Names for the exercise of Dis'
+2026-10-18 03:22:13,344 [INFO] [198/285] clause-1751 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains a license to use PPI Improvements, but there is no explic'
+2026-10-18 03:24:10,546 [INFO] [199/285] clause-1752 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to receive a worldwide, non-exclusive, irrevoca'
+2026-10-18 03:26:17,999 [INFO] [200/285] clause-1756 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer risks losing control over the PPI Improvements and gaining limi'
+2026-10-18 03:28:47,256 [INFO] [201/285] clause-1775 | Cap On Liability | status=success | quote_valid=True | obs="The Client gains limited liability protection for PPI's negligence, but faces fi"
+2026-10-18 03:31:16,939 [INFO] [clause-1776] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 03:33:00,924 [WARNING] [clause-1776] Retry also failed: No JSON object found in response
+2026-10-18 03:33:01,004 [INFO] [202/285] clause-1776 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 03:35:00,673 [INFO] [clause-1777] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 03:36:56,371 [WARNING] [clause-1777] Retry also failed: No JSON object found in response
+2026-10-18 03:36:56,770 [INFO] [203/285] clause-1777 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 03:39:22,847 [INFO] [204/285] clause-1778 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from liability for certain types of lo'
+2026-10-18 03:41:11,710 [INFO] [clause-1779] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 03:43:01,195 [WARNING] [clause-1779] Retry also failed: No JSON object found in response
+2026-10-18 03:43:01,306 [INFO] [205/285] clause-1779 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 03:45:21,300 [INFO] [206/285] clause-1821 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to advertise, promote, market, and solicit cust'
+2026-10-18 03:46:48,443 [INFO] [207/285] clause-1823 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to advertise, promote, market, and solicit cust'
+2026-10-18 03:48:41,174 [INFO] [208/285] clause-1825 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to exclusively receive services from the Distri'
+2026-10-18 03:50:24,559 [INFO] [209/285] clause-1826 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to exclusively deal with the Distributor for th'
+2026-10-18 03:52:11,339 [INFO] [210/285] clause-1827 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to maintain exclusivity on existing products in'
+2026-10-18 03:53:39,886 [INFO] [211/285] clause-1829 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer loses the right to enter into a new distribution agreement with'
+2026-10-18 03:55:23,128 [INFO] [212/285] clause-1843 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a cap on the amount of damages they can be held liable for in a'
+2026-10-18 03:57:07,279 [INFO] [213/285] clause-1866 | Termination For Convenience | status=success | quote_valid=True | obs="The Client gains the right to terminate the agreement at any time with 180 days'"
+2026-10-18 03:58:10,404 [INFO] [214/285] clause-1870 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer has the right to terminate the agreement at any time with 180 d'
+2026-10-18 04:00:24,031 [INFO] [215/285] clause-1881 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains a co-equal right, title and interest in and to any jointl'
+2026-10-18 04:02:25,979 [INFO] [216/285] clause-1883 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains a co-equal right, title and interest in and to any jointl'
+2026-10-18 04:04:20,153 [INFO] [217/285] clause-1905 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains protection against certain types of damages, but they als'
+2026-10-18 04:06:02,493 [INFO] [218/285] clause-1911 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure as the clause does not lim'
+2026-10-18 04:07:35,539 [INFO] [219/285] clause-1925 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains exclusive rights within the Territory to use the manufact'
+2026-10-18 04:09:36,882 [INFO] [220/285] clause-1927 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 04:11:13,341 [INFO] [221/285] clause-1954 | Cap On Liability | status=success | quote_valid=True | obs="The clause restricts the Company's liability for repairs to the Repairer, potent"
+2026-10-18 04:12:50,245 [INFO] [222/285] clause-1955 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Repairer) gains the right to terminate the agreement for conve'
+2026-10-18 04:14:34,149 [INFO] [223/285] clause-1967 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer gains a significant limitation on the Repairer's liability, but"
+2026-10-18 04:16:27,056 [INFO] [224/285] clause-2000 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (SAP AFRICA) loses the right to terminate the agreement for con'
+2026-10-18 04:18:15,548 [INFO] [225/285] clause-2001 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 04:21:57,293 [INFO] [clause-2025] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 04:23:50,002 [WARNING] [clause-2025] Retry also failed: No JSON object found in response
+2026-10-18 04:23:50,079 [INFO] [226/285] clause-2025 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 04:26:42,148 [INFO] [227/285] clause-2026 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (TELKOM) is limited in its liability to the amount of License F'
+2026-10-18 04:29:08,551 [INFO] [228/285] clause-2027 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains limited protection from the defaulting party for certain '
+2026-10-18 04:32:08,732 [INFO] [clause-2028] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 04:34:14,478 [WARNING] [clause-2028] Retry also failed: No JSON object found in response
+2026-10-18 04:34:14,553 [INFO] [229/285] clause-2028 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 04:36:20,962 [INFO] [230/285] clause-2029 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant protection against liability for certain ty'
+2026-10-18 04:39:00,565 [INFO] [clause-2046] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 04:40:39,855 [INFO] [231/285] clause-2046 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 04:42:41,479 [INFO] [232/285] clause-2048 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 04:44:48,072 [INFO] [233/285] clause-2058 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to identify up to five additional products to b'
+2026-10-18 04:46:53,799 [INFO] [234/285] clause-2060 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial and operational exposure as the Ven'
+2026-10-18 04:49:07,922 [INFO] [235/285] clause-2068 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (XSPA) gains the right to terminate the agreement for convenien'
+2026-10-18 04:51:24,637 [INFO] [236/285] clause-2074 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant protection against liability for certain ty'
+2026-10-18 04:53:21,374 [INFO] [237/285] clause-2094 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer has the right to terminate the agreement at any time after the '
+2026-10-18 04:56:08,375 [INFO] [clause-2100] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 04:57:59,345 [INFO] [238/285] clause-2100 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains significant protection from the Company in case of legal '
+2026-10-18 05:00:35,284 [INFO] [239/285] clause-2101 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant protection against liability for special, i'
+2026-10-18 05:02:55,934 [INFO] [240/285] clause-2102 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer (the Company) gains limited protection from CNET's potential li"
+2026-10-18 05:05:16,073 [INFO] [clause-2103] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 05:07:14,294 [WARNING] [clause-2103] Retry also failed: No JSON object found in response
+2026-10-18 05:07:14,390 [INFO] [241/285] clause-2103 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 05:09:37,798 [INFO] [242/285] clause-2118 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure as the clause limits the l'
+2026-10-18 05:11:44,317 [INFO] [243/285] clause-2119 | Cap On Liability | status=success | quote_valid=True | obs="The Client gains significant protection by limiting the Agent's liability to a f"
+2026-10-18 05:14:27,716 [INFO] [244/285] clause-2120 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement for convenience at any tim'
+2026-10-18 05:15:48,257 [INFO] [245/285] clause-2135 | Termination For Convenience | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement for convenience at any tim'
+2026-10-18 05:20:44,944 [INFO] [clause-2161] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 05:24:04,945 [WARNING] [clause-2161] Retry also failed: No JSON object found in response
+2026-10-18 05:24:05,045 [INFO] [246/285] clause-2161 | Uncapped Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 05:27:24,658 [INFO] [clause-2162] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 05:29:36,270 [INFO] [247/285] clause-2162 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains protection against liability for certain types of losses, but t'
+2026-10-18 05:31:12,285 [INFO] [248/285] clause-2163 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer faces significant financial exposure as the clause does not lim'
+2026-10-18 05:33:45,212 [INFO] [clause-2164] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 05:35:35,631 [WARNING] [clause-2164] Retry also failed: No JSON object found in response
+2026-10-18 05:35:35,709 [INFO] [249/285] clause-2164 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 05:37:59,009 [INFO] [250/285] clause-2165 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant limitation on liability, particularly for l'
+2026-10-18 05:39:29,390 [INFO] [251/285] clause-2166 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant limitation on liability for consequential, '
+2026-10-18 05:42:34,176 [INFO] [clause-2167] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 05:44:53,158 [WARNING] [clause-2167] Retry also failed: No JSON object found in response
+2026-10-18 05:44:53,216 [INFO] [252/285] clause-2167 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 05:47:01,552 [INFO] [clause-2168] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 05:49:27,782 [WARNING] [clause-2168] Retry also failed: No JSON object found in response
+2026-10-18 05:49:27,924 [INFO] [253/285] clause-2168 | Cap On Liability | status=failed | quote_valid=False | obs=''
+2026-10-18 05:51:39,990 [INFO] [254/285] clause-2182 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Bizzingo) faces significant operational exposure as they are r'
+2026-10-18 05:53:10,879 [INFO] [255/285] clause-2234 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to use the assigned IP and may face financial o'
+2026-10-18 05:55:48,669 [INFO] [256/285] clause-2281 | IP Ownership Assignment | status=success | quote_valid=False | obs='The Client/Buyer loses the right to use the Materials and other work product cre'
+2026-10-18 05:57:58,866 [INFO] [257/285] clause-2282 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to retain any IP rights in the Materials create'
+2026-10-18 06:00:19,659 [INFO] [258/285] clause-2289 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer is not protected from ABG's liability under this agreement. The"
+2026-10-18 06:02:46,925 [INFO] [259/285] clause-2290 | Cap On Liability | status=success | quote_valid=True | obs="The clause significantly limits the Client/Papa John's liability to ABG and Auth"
+2026-10-18 06:04:41,028 [INFO] [260/285] clause-2311 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to retain any IP rights in the works, which cou'
+2026-10-18 06:06:26,810 [INFO] [261/285] clause-2312 | IP Ownership Assignment | status=success | quote_valid=True | obs='The Client/Buyer gains ownership of all work product created by the Vendor/contr'
+2026-10-18 06:08:07,078 [INFO] [262/285] clause-2338 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the exclusive right to resell Cards in the NPO Marketplac'
+2026-10-18 06:10:22,798 [INFO] [263/285] clause-2349 | Cap On Liability | status=success | quote_valid=False | obs='The Client/Buyer is limited to a maximum liability of $3,000,000 for any claims '
+2026-10-18 06:13:15,515 [INFO] [264/285] clause-2351 | Termination For Convenience | status=success | quote_valid=False | obs='The Client faces significant financial exposure as Schoolpop is granted the righ'
+2026-10-18 06:17:29,907 [INFO] [clause-2353] Parse failed attempt 1: No JSON object found in response. Retrying...
+2026-10-18 06:20:12,123 [INFO] [265/285] clause-2353 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant limitation on their liability, but this pro'
+2026-10-18 06:23:06,519 [INFO] [266/285] clause-2371 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (AGI) faces a significant financial exposure if the Company dec'
+2026-10-18 06:25:37,482 [INFO] [267/285] clause-2383 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to have the Distributor as the sole distributor'
+2026-10-18 06:27:47,506 [INFO] [268/285] clause-2395 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to promote, market, and distribute products con'
+2026-10-18 06:29:41,383 [INFO] [269/285] clause-2414 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer has the right to terminate the agreement if Promotion Net Sales'
+2026-10-18 06:32:34,188 [INFO] [270/285] clause-2437 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer (the party that purchases or receives services under this agree'
+2026-10-18 06:35:05,260 [INFO] [271/285] clause-2438 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains a significant protection against liability for punitive, '
+2026-10-18 06:37:14,687 [INFO] [272/285] clause-2460 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant protection against liability for special, inciden'
+2026-10-18 06:39:36,169 [INFO] [273/285] clause-2461 | Cap On Liability | status=success | quote_valid=True | obs="The Client/Buyer (the Client) gains a significant limitation on Hovione's liabil"
+2026-10-18 06:41:32,783 [INFO] [274/285] clause-2478 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the agreement without cause at any'
+2026-10-18 06:44:08,105 [INFO] [275/285] clause-2479 | Uncapped Liability | status=success | quote_valid=True | obs='The Client faces broad uncapped liability for any cause whatsoever, including in'
+2026-10-18 06:45:53,110 [INFO] [276/285] clause-2514 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Seller) gains the right to terminate the agreement for conveni'
+2026-10-18 06:47:52,122 [INFO] [277/285] clause-2515 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer gains the right to terminate the contract at any time, which co'
+2026-10-18 06:49:48,370 [INFO] [278/285] clause-2534 | Exclusivity | status=success | quote_valid=False | obs='The Client/Buyer gains the right to purchase or obtain the Product from other so'
+2026-10-18 06:51:39,011 [INFO] [279/285] clause-2536 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to exclusively receive the Products from Zanott'
+2026-10-18 06:52:44,335 [INFO] [280/285] clause-2538 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to purchase or obtain the Product from other so'
+2026-10-18 06:54:22,165 [INFO] [281/285] clause-2540 | Termination For Convenience | status=success | quote_valid=True | obs="The Client gains the right to terminate the agreement with only 60 days' notice,"
+2026-10-18 06:55:25,382 [INFO] [282/285] clause-2545 | Exclusivity | status=success | quote_valid=True | obs='The Client/Buyer gains the right to purchase or obtain the Product from other so'
+2026-10-18 06:58:04,899 [INFO] [283/285] clause-2546 | Termination For Convenience | status=success | quote_valid=True | obs='The Client/Buyer (Zanotti) gains the right to terminate the agreement if Aura fa'
+2026-10-18 07:00:22,347 [INFO] [284/285] clause-2551 | Cap On Liability | status=success | quote_valid=True | obs='The Client/Buyer gains protection from the Seller for certain types of losses, s'
+2026-10-18 07:02:14,649 [INFO] [285/285] clause-2552 | Cap On Liability | status=success | quote_valid=True | obs='The Client gains a significant protection against special, consequential, and in'
+2026-10-18 07:02:14,709 [INFO] === Phase 2 v2: Complete ===
+2026-10-18 07:02:14,715 [INFO] Total: 285/285 | Failures: 39 | Output: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_v2_results.jsonl

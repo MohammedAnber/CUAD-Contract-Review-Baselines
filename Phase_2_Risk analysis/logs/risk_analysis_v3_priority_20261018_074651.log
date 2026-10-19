@@ -1,0 +1,612 @@
+2026-10-18 07:46:51,847 [INFO] === Starting Phase 2 (v3): High-Priority Clauses Analysis (CPU Max Concurrency) ===
+2026-10-18 07:46:51,848 [INFO] Workers: 3 | num_predict: 450 | Model: qwen2.5:3b
+2026-10-18 07:46:51,848 [INFO] Target Priority Categories: ['Anti-Assignment', 'Audit Rights', 'Post-Termination Services', 'Minimum Commitment', 'Change Of Control', 'Non-Compete', 'Warranty Duration', 'No-Solicit of Customers', 'Liquidated Damages', 'Price Restrictions']
+2026-10-18 07:46:51,848 [INFO] Output File: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_v3_priority_results.jsonl
+2026-10-18 07:46:51,951 [INFO] Filtered 510 High-Priority clauses across Tier 1 & Tier 2.
+2026-10-18 07:46:51,952 [INFO] Remaining to process: 510 clauses.
+2026-10-18 07:51:52,183 [WARNING] [clause-10] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 07:51:52,184 [WARNING] [clause-20] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 07:51:52,190 [WARNING] [clause-22] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 07:54:34,754 [INFO] [1/510] clause-10 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains no right to assign its rights or obligations under the agr'
+2026-10-18 07:54:34,770 [INFO] [2/510] clause-22 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 07:56:26,783 [INFO] [3/510] clause-20 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement at any time upon no l'
+2026-10-18 07:58:58,485 [INFO] [4/510] clause-23 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer is subject to significant risk in any M&A transaction wher'
+2026-10-18 07:59:34,832 [WARNING] [clause-24] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:00:30,536 [INFO] [5/510] clause-25 | Post-Termination Services | status=success | quote_valid=False | obs='The Client gains the right to request transition assistance and the return '
+2026-10-18 08:03:16,967 [INFO] [6/510] clause-24 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 08:03:17,141 [INFO] [7/510] clause-27 | Audit Rights | status=success | quote_valid=True | obs="The Client loses the right to conduct an audit of the Vendor's books and re"
+2026-10-18 08:03:58,580 [WARNING] [clause-26] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:06:46,757 [INFO] [8/510] clause-29 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer risks having the Vendor conduct an audit, which could expo'
+2026-10-18 08:07:44,500 [INFO] [9/510] clause-28 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to conduct an audit at any time within two years'
+2026-10-18 08:08:57,208 [INFO] [10/510] clause-26 | Audit Rights | status=success | quote_valid=False | obs='The Client gains the right to conduct audits, but the clause does not speci'
+2026-10-18 08:10:32,164 [INFO] [11/510] clause-30 | Audit Rights | status=success | quote_valid=True | obs="The Client gains significant rights to audit the Vendor's operations and fi"
+2026-10-18 08:11:38,731 [INFO] [12/510] clause-56 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains limited rights to assign the agreement, but only with the '
+2026-10-18 08:13:40,566 [INFO] [13/510] clause-72 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to assign the agreement to an Affiliate without '
+2026-10-18 08:15:23,213 [INFO] [14/510] clause-74 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign the agreement to affiliates, subsidiar'
+2026-10-18 08:15:23,306 [INFO] [15/510] clause-73 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to assign the agreement to affiliates, subsidiar'
+2026-10-18 08:18:40,718 [WARNING] [clause-75] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:19:25,693 [INFO] [16/510] clause-76 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to pay an annual 18% of the undiscounted License'
+2026-10-18 08:20:23,356 [WARNING] [clause-110] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:23:41,061 [WARNING] [clause-75] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:23:41,181 [INFO] [17/510] clause-75 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 08:24:25,945 [WARNING] [clause-111] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:25:12,846 [INFO] [18/510] clause-110 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to continued use of the Software for a period af'
+2026-10-18 08:28:22,297 [INFO] [19/510] clause-112 | Audit Rights | status=success | quote_valid=True | obs="The Client gains the right to conduct an audit on the Vendor's books and re"
+2026-10-18 08:29:22,908 [INFO] [20/510] clause-111 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to continued Software Support and Maintenance fo'
+2026-10-18 08:30:02,309 [INFO] [21/510] clause-113 | Audit Rights | status=success | quote_valid=False | obs='The Client gains the right to conduct an audit, but the clause does not spe'
+2026-10-18 08:32:53,327 [INFO] [22/510] clause-125 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains a limited warranty period of 90 days for the Licensed Soft'
+2026-10-18 08:33:22,422 [WARNING] [clause-114] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:34:06,248 [INFO] [23/510] clause-128 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains the right to terminate the Agreement and receive a refund '
+2026-10-18 08:36:22,565 [INFO] [24/510] clause-129 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains a limited warranty period of 120 days for the Software and'
+2026-10-18 08:37:12,334 [INFO] [25/510] clause-130 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains the exclusive remedy of having defective media replaced by'
+2026-10-18 08:38:16,463 [INFO] [26/510] clause-114 | Audit Rights | status=success | quote_valid=True | obs="The Client/Buyer gains the right to have Changepoint's independent auditors"
+2026-10-18 08:40:02,105 [INFO] [27/510] clause-132 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains a warranty period of 90 days but does not have any specifi'
+2026-10-18 08:40:50,206 [INFO] [28/510] clause-131 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains limited warranty remedies but no protection against other '
+2026-10-18 08:41:59,175 [INFO] [29/510] clause-148 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to affiliate'
+2026-10-18 08:44:26,983 [INFO] [30/510] clause-149 | Anti-Assignment | status=success | quote_valid=True | obs="The Client gains the right to engage subcontractors with the Vendor's prior"
+2026-10-18 08:45:13,744 [INFO] [31/510] clause-159 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to receive post-termination services from the Ve'
+2026-10-18 08:45:50,390 [WARNING] [clause-150] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:48:42,910 [INFO] [32/510] clause-160 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to retain Vendor records for at least three year'
+2026-10-18 08:49:45,143 [INFO] [33/510] clause-161 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to have the Vendor (Anixa) inspect their records'
+2026-10-18 08:50:50,618 [WARNING] [clause-150] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:50:50,729 [INFO] [34/510] clause-150 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 08:52:45,802 [INFO] [35/510] clause-162 | Audit Rights | status=success | quote_valid=False | obs="The Client gains the right to inspect and request copies of Vendor's record"
+2026-10-18 08:54:45,442 [WARNING] [clause-176] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 08:55:16,942 [INFO] [36/510] clause-180 | No-Solicit of Customers | status=success | quote_valid=False | obs='The Client gains exclusive rights to commission for any Registered Referral'
+2026-10-18 08:56:08,225 [INFO] [37/510] clause-193 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 08:58:18,241 [INFO] [38/510] clause-195 | Minimum Commitment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to require a minimum percentage of Joint V'
+2026-10-18 08:58:50,921 [INFO] [39/510] clause-176 | No-Solicit of Customers | status=success | quote_valid=True | obs='The Client gains exclusive rights to commission for any Registered Referral'
+2026-10-18 08:59:52,152 [INFO] [40/510] clause-194 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains a significant financial stake in the Joint Venture Company'
+2026-10-18 09:02:15,531 [INFO] [41/510] clause-199 | Audit Rights | status=success | quote_valid=True | obs="The Client gains the right to conduct an audit on the Vendor's financial re"
+2026-10-18 09:03:08,847 [INFO] [42/510] clause-198 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to conduct an audit, which could expose th'
+2026-10-18 09:03:56,903 [INFO] [43/510] clause-200 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to appoint an accountant to audit the Joint Vent'
+2026-10-18 09:06:25,427 [INFO] [44/510] clause-201 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer (Party A) loses the right to conduct an audit of the Joint'
+2026-10-18 09:07:21,692 [INFO] [45/510] clause-203 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to conduct an audit. There is no protectiv'
+2026-10-18 09:08:09,263 [WARNING] [clause-202] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:09:31,504 [INFO] [46/510] clause-216 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement without the '
+2026-10-18 09:11:23,365 [INFO] [47/510] clause-217 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 09:12:04,415 [INFO] [48/510] clause-202 | Audit Rights | status=success | quote_valid=True | obs="The Client/Buyer gains the right to inspect the Joint Venture Company's fin"
+2026-10-18 09:13:34,952 [INFO] [49/510] clause-218 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 09:16:24,411 [WARNING] [clause-221] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:16:46,251 [INFO] [50/510] clause-235 | Change Of Control | status=success | quote_valid=True | obs='The Client gains the right to have its rights reinstated if the sale, trans'
+2026-10-18 09:17:33,545 [INFO] [51/510] clause-236 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains significant rights to prevent the Vendor from selling or t'
+2026-10-18 09:21:12,084 [INFO] [52/510] clause-242 | Change Of Control | status=success | quote_valid=True | obs="The Client gains the right to terminate the acquisition of Licensor's asset"
+2026-10-18 09:21:24,840 [WARNING] [clause-221] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:21:24,930 [INFO] [53/510] clause-221 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 09:21:46,386 [WARNING] [clause-240] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:25:29,746 [INFO] [54/510] clause-245 | Change Of Control | status=success | quote_valid=False | obs='The Client gains the right to terminate the agreement if the Vendor or any '
+2026-10-18 09:26:03,400 [INFO] [55/510] clause-240 | Change Of Control | status=success | quote_valid=True | obs='The Client gains the right to negotiate a definitive purchase and sale agre'
+2026-10-18 09:26:12,202 [WARNING] [clause-244] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:29:50,996 [INFO] [56/510] clause-246 | Change Of Control | status=success | quote_valid=True | obs='The clause grants the Vendor (the Option holder) the right to remain the so'
+2026-10-18 09:30:42,858 [INFO] [57/510] clause-244 | Change Of Control | status=success | quote_valid=False | obs='The Client gains the right to sell, transfer, or convey all or the applicab'
+2026-10-18 09:31:03,481 [WARNING] [clause-247] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:33:12,138 [INFO] [58/510] clause-248 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains significant rights to prevent the Vendor from selling or t'
+2026-10-18 09:34:55,117 [INFO] [59/510] clause-249 | Minimum Commitment | status=success | quote_valid=True | obs='The Client/Buyer faces financial exposure as they are required to pay a qua'
+2026-10-18 09:36:03,740 [WARNING] [clause-247] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:36:03,892 [INFO] [60/510] clause-247 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 09:37:43,762 [INFO] [61/510] clause-265 | Liquidated Damages | status=success | quote_valid=True | obs='The Client/Buyer gains the right to seek liquidated damages in the event of'
+2026-10-18 09:39:20,828 [INFO] [62/510] clause-267 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 09:40:26,311 [INFO] [63/510] clause-269 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to conduct an audit, which could expose th'
+2026-10-18 09:41:04,057 [WARNING] [clause-268] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:42:53,185 [INFO] [64/510] clause-270 | Liquidated Damages | status=success | quote_valid=True | obs='The Client gains the right to seek liquidated damages in the event of a spe'
+2026-10-18 09:45:21,328 [INFO] [65/510] clause-268 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to expect the Vendor to continue providing servi'
+2026-10-18 09:45:26,349 [WARNING] [clause-271] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:47:33,305 [INFO] [66/510] clause-272 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains a warranty period that can extend beyond one year, which c'
+2026-10-18 09:49:10,332 [INFO] [67/510] clause-271 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains the right to have defects repaired or remedied at the Subc'
+2026-10-18 09:49:57,285 [INFO] [68/510] clause-295 | Change Of Control | status=success | quote_valid=True | obs='The Client gains the right to terminate the contract period if the Vendor ('
+2026-10-18 09:52:05,694 [INFO] [69/510] clause-296 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the ability to assign or transfer the agreement to an affi'
+2026-10-18 09:53:38,564 [INFO] [70/510] clause-297 | Minimum Commitment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to participate in a minimum of fifteen off'
+2026-10-18 09:54:23,168 [INFO] [71/510] clause-298 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to potentially have a portion of the Additional '
+2026-10-18 09:56:48,160 [INFO] [72/510] clause-304 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to potentially have a portion of the Additional '
+2026-10-18 09:58:38,408 [WARNING] [clause-323] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:59:23,288 [WARNING] [clause-351] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 09:59:37,136 [INFO] [73/510] clause-352 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains no rights to assign or transfer the agreement to affiliate'
+2026-10-18 10:02:50,104 [INFO] [74/510] clause-323 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to transfer its rights and obligations to a succ'
+2026-10-18 10:04:05,078 [INFO] [75/510] clause-358 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 10:04:23,537 [WARNING] [clause-351] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:04:23,555 [INFO] [76/510] clause-351 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 10:07:50,494 [WARNING] [clause-362] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:09:05,350 [WARNING] [clause-375] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:09:23,617 [WARNING] [clause-376] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:12:50,864 [WARNING] [clause-362] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:12:51,005 [INFO] [77/510] clause-362 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 10:14:06,150 [WARNING] [clause-375] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:14:06,395 [INFO] [78/510] clause-375 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 10:14:23,798 [WARNING] [clause-376] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:14:23,884 [INFO] [79/510] clause-376 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 10:17:51,286 [WARNING] [clause-377] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:18:20,850 [INFO] [80/510] clause-378 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer gains the right to request an audit from Bioeq once per ye'
+2026-10-18 10:19:24,044 [WARNING] [clause-401] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:22:51,717 [WARNING] [clause-377] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:22:51,874 [INFO] [81/510] clause-377 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 10:23:20,967 [WARNING] [clause-402] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:24:24,345 [WARNING] [clause-401] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:24:24,469 [INFO] [82/510] clause-401 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 10:27:52,109 [WARNING] [clause-403] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:28:21,095 [WARNING] [clause-402] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:28:21,295 [INFO] [83/510] clause-402 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 10:29:24,717 [WARNING] [clause-409] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:31:00,630 [INFO] [84/510] clause-410 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement, which could'
+2026-10-18 10:32:24,248 [INFO] [85/510] clause-403 | No-Solicit of Customers | status=success | quote_valid=True | obs='The Client/Buyer is restricted from soliciting, contracting with, or doing '
+2026-10-18 10:33:53,870 [INFO] [86/510] clause-409 | Change Of Control | status=success | quote_valid=True | obs="The Client gains the right to terminate CONSULTANT's services without cause"
+2026-10-18 10:36:00,809 [WARNING] [clause-418] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:36:33,305 [INFO] [87/510] clause-434 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 10:38:04,711 [INFO] [88/510] clause-435 | Change Of Control | status=success | quote_valid=True | obs='The Client gains the right to have the agreement reassigned back to them wi'
+2026-10-18 10:39:51,888 [INFO] [89/510] clause-436 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to assign or transfer the agreement to any of it'
+2026-10-18 10:40:52,681 [INFO] [90/510] clause-418 | Change Of Control | status=success | quote_valid=True | obs="The Client gains the right to terminate CONSULTANT's services without cause"
+2026-10-18 10:43:04,880 [WARNING] [clause-437] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:44:09,034 [INFO] [91/510] clause-446 | Audit Rights | status=success | quote_valid=True | obs="The Client gains the right to conduct annual audits of the Vendor's records"
+2026-10-18 10:44:46,916 [INFO] [92/510] clause-445 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to conduct an audit, which could expose potentia'
+2026-10-18 10:47:26,629 [INFO] [93/510] clause-437 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to assign or transfer the agreement to an affili'
+2026-10-18 10:48:19,445 [INFO] [94/510] clause-468 | No-Solicit of Customers | status=success | quote_valid=True | obs='The Client gains the right to solicit, contract with, and do business with '
+2026-10-18 10:49:19,816 [INFO] [95/510] clause-469 | No-Solicit of Customers | status=success | quote_valid=True | obs='The Client gains a 12-month non-solicitation obligation from the Vendor, wh'
+2026-10-18 10:51:54,412 [INFO] [96/510] clause-474 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 10:53:19,654 [WARNING] [clause-477] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:54:02,723 [INFO] [97/510] clause-480 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to sell or transfer its Partnership Interests to'
+2026-10-18 10:55:20,120 [INFO] [98/510] clause-481 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer is at risk of losing the ability to assign or transfer the'
+2026-10-18 10:57:57,673 [INFO] [99/510] clause-482 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 10:58:20,034 [WARNING] [clause-477] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 10:58:20,151 [INFO] [100/510] clause-477 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 11:00:20,346 [WARNING] [clause-483] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:02:56,225 [INFO] [101/510] clause-486 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains significant protection against unauthorized assignments by'
+2026-10-18 11:02:57,727 [WARNING] [clause-485] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:05:01,069 [INFO] [102/510] clause-483 | Minimum Commitment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to demand Additional Units from Moelis Hol'
+2026-10-18 11:07:50,831 [INFO] [103/510] clause-492 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 11:07:58,155 [WARNING] [clause-485] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:07:58,211 [INFO] [104/510] clause-485 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 11:10:01,373 [WARNING] [clause-493] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:12:43,305 [INFO] [105/510] clause-516 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the right to assign or transfer the agreement to an '
+2026-10-18 11:12:49,379 [WARNING] [clause-515] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:15:01,967 [WARNING] [clause-493] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:15:02,186 [INFO] [106/510] clause-493 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 11:17:43,488 [WARNING] [clause-517] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:17:49,423 [WARNING] [clause-515] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:17:49,548 [INFO] [107/510] clause-515 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 11:20:02,453 [WARNING] [clause-532] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:22:29,757 [INFO] [108/510] clause-517 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 11:22:49,543 [WARNING] [clause-543] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:25:02,812 [WARNING] [clause-532] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:25:03,087 [INFO] [109/510] clause-532 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 11:27:29,989 [WARNING] [clause-544] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:27:49,888 [WARNING] [clause-543] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:27:50,061 [INFO] [110/510] clause-543 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 11:30:03,524 [WARNING] [clause-545] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:32:30,435 [WARNING] [clause-544] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:32:30,594 [INFO] [111/510] clause-544 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 11:32:50,342 [WARNING] [clause-549] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:35:03,918 [WARNING] [clause-545] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:35:04,068 [INFO] [112/510] clause-545 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 11:37:30,934 [WARNING] [clause-569] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:37:50,517 [WARNING] [clause-549] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:37:50,689 [INFO] [113/510] clause-549 | Warranty Duration | status=failed | quote_valid=False | obs=''
+2026-10-18 11:40:04,453 [WARNING] [clause-571] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:41:13,908 [INFO] [114/510] clause-569 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer is prohibited from assigning or transferring the agreement'
+2026-10-18 11:42:47,544 [INFO] [115/510] clause-572 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the ability to assign the agreement to an affiliate, subsi'
+2026-10-18 11:45:04,816 [WARNING] [clause-571] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:45:04,938 [INFO] [116/510] clause-571 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 11:46:14,089 [WARNING] [clause-579] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:47:47,794 [WARNING] [clause-580] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:50:04,731 [INFO] [117/510] clause-581 | Audit Rights | status=success | quote_valid=False | obs='The Client gains the right to conduct audits at any time, but the frequency'
+2026-10-18 11:51:14,733 [WARNING] [clause-579] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:51:14,918 [INFO] [118/510] clause-579 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 11:52:47,071 [INFO] [119/510] clause-580 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to conduct audits, which could expose the Vendor'
+2026-10-18 11:55:04,938 [WARNING] [clause-582] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:55:59,536 [INFO] [120/510] clause-583 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer gains the right to have the Licensor audit their records, '
+2026-10-18 11:57:47,283 [WARNING] [clause-589] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 11:59:31,370 [INFO] [121/510] clause-582 | Audit Rights | status=success | quote_valid=True | obs='The Client gains significant audit rights over the Vendor, which could expo'
+2026-10-18 12:00:59,683 [WARNING] [clause-590] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:02:47,687 [WARNING] [clause-589] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:02:47,813 [INFO] [122/510] clause-589 | Warranty Duration | status=failed | quote_valid=False | obs=''
+2026-10-18 12:04:31,630 [WARNING] [clause-591] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:05:23,415 [INFO] [123/510] clause-590 | Warranty Duration | status=success | quote_valid=True | obs='The Client gains a warranty period of 12 months for the Licensed Products, '
+2026-10-18 12:07:09,370 [INFO] [124/510] clause-592 | Warranty Duration | status=success | quote_valid=True | obs='The Client/Buyer loses the right to receive exclusive remedies for a warran'
+2026-10-18 12:09:32,020 [WARNING] [clause-591] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:09:32,150 [INFO] [125/510] clause-591 | Warranty Duration | status=failed | quote_valid=False | obs=''
+2026-10-18 12:10:23,793 [WARNING] [clause-614] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:12:00,916 [INFO] [126/510] clause-615 | Non-Compete | status=success | quote_valid=False | obs='The Client is restricted from entering into any agreements or accepting off'
+2026-10-18 12:14:32,642 [WARNING] [clause-616] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:14:32,912 [INFO] [127/510] clause-614 | Non-Compete | status=success | quote_valid=True | obs='The Client gains the right to terminate the non-compete restrictions prior '
+2026-10-18 12:17:01,151 [WARNING] [clause-617] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:19:33,112 [WARNING] [clause-618] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:19:33,109 [WARNING] [clause-616] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:19:33,239 [INFO] [128/510] clause-616 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 12:22:01,703 [WARNING] [clause-617] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:22:01,829 [INFO] [129/510] clause-617 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 12:24:33,491 [WARNING] [clause-618] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:24:33,493 [WARNING] [clause-619] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:24:33,631 [INFO] [130/510] clause-618 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 12:27:02,281 [WARNING] [clause-626] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:29:33,903 [WARNING] [clause-619] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:29:33,903 [WARNING] [clause-633] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:29:34,048 [INFO] [131/510] clause-619 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 12:32:03,916 [WARNING] [clause-626] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:32:04,216 [INFO] [132/510] clause-626 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 12:34:24,987 [INFO] [133/510] clause-633 | Anti-Assignment | status=success | quote_valid=False | obs='The Client/Buyer is severely restricted in assigning or transferring the ag'
+2026-10-18 12:34:34,398 [WARNING] [clause-636] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:37:05,109 [WARNING] [clause-637] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:39:25,258 [WARNING] [clause-639] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:39:34,491 [WARNING] [clause-636] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:39:34,557 [INFO] [134/510] clause-636 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 12:41:40,080 [INFO] [135/510] clause-637 | Audit Rights | status=success | quote_valid=False | obs="The Client gains significant rights to audit the Vendor's records, which co"
+2026-10-18 12:43:43,647 [INFO] [136/510] clause-640 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer gains significant audit rights, which could expose the Cli'
+2026-10-18 12:44:25,640 [WARNING] [clause-639] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:44:25,796 [INFO] [137/510] clause-639 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 12:46:40,333 [WARNING] [clause-641] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:48:43,968 [WARNING] [clause-642] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:49:26,008 [WARNING] [clause-643] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:51:40,887 [WARNING] [clause-641] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:51:41,027 [INFO] [138/510] clause-641 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 12:53:44,935 [WARNING] [clause-642] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:53:45,059 [INFO] [139/510] clause-642 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 12:54:26,401 [WARNING] [clause-643] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:54:26,512 [INFO] [140/510] clause-643 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 12:56:41,300 [WARNING] [clause-644] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:58:45,405 [WARNING] [clause-668] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 12:59:13,811 [INFO] [141/510] clause-672 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the flexibility to not be required to meet a minimum purch'
+2026-10-18 13:01:12,220 [INFO] [142/510] clause-644 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to audit the Vendor, which could expose the Vend'
+2026-10-18 13:03:09,977 [INFO] [143/510] clause-675 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains a minimum purchase obligation of 10,000 pounds of Commodit'
+2026-10-18 13:03:45,840 [WARNING] [clause-668] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:03:45,986 [INFO] [144/510] clause-668 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 13:05:33,077 [INFO] [145/510] clause-676 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to avoid paying for any hours worked if the tota'
+2026-10-18 13:07:34,491 [INFO] [146/510] clause-684 | Liquidated Damages | status=success | quote_valid=True | obs='The Client gains the right to be charged a fixed fee for excess time consum'
+2026-10-18 13:08:10,177 [WARNING] [clause-679] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:10:33,257 [WARNING] [clause-686] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:11:40,422 [INFO] [147/510] clause-687 | Liquidated Damages | status=success | quote_valid=True | obs='The Client/Buyer gains the right to be charged a fixed amount for delays ca'
+2026-10-18 13:13:06,289 [INFO] [148/510] clause-679 | Minimum Commitment | status=success | quote_valid=True | obs='The Client/Buyer gains the right to partially load and discharge shipments '
+2026-10-18 13:15:34,319 [WARNING] [clause-686] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:15:34,560 [INFO] [149/510] clause-686 | Liquidated Damages | status=failed | quote_valid=False | obs=''
+2026-10-18 13:16:40,687 [WARNING] [clause-701] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:18:06,461 [WARNING] [clause-702] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:19:45,270 [INFO] [150/510] clause-704 | No-Solicit of Customers | status=success | quote_valid=True | obs='The Client gains the right to not be solicited by the Vendor for customers '
+2026-10-18 13:21:41,152 [WARNING] [clause-701] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:21:41,308 [INFO] [151/510] clause-701 | No-Solicit of Customers | status=failed | quote_valid=False | obs=''
+2026-10-18 13:23:06,934 [WARNING] [clause-702] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:23:07,067 [INFO] [152/510] clause-702 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 13:24:45,896 [WARNING] [clause-710] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:26:42,005 [WARNING] [clause-715] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:27:30,267 [INFO] [153/510] clause-716 | Change Of Control | status=success | quote_valid=True | obs='The Client gains the right to purchase the rights and license granted herei'
+2026-10-18 13:29:25,553 [INFO] [154/510] clause-710 | No-Solicit of Customers | status=success | quote_valid=True | obs='The Client/Buyer is restricted from soliciting or doing business with the V'
+2026-10-18 13:31:42,542 [WARNING] [clause-715] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:31:42,740 [INFO] [155/510] clause-715 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 13:32:02,068 [INFO] [156/510] clause-717 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer is severely restricted in assigning or transferring the ag'
+2026-10-18 13:34:07,441 [INFO] [157/510] clause-720 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 13:36:43,275 [WARNING] [clause-721] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:37:02,346 [WARNING] [clause-722] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:38:56,186 [INFO] [158/510] clause-723 | Audit Rights | status=success | quote_valid=False | obs="The Client gains significant rights to inspect the Vendor's (Client) operat"
+2026-10-18 13:41:43,682 [WARNING] [clause-721] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:41:43,808 [INFO] [159/510] clause-721 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 13:42:02,771 [WARNING] [clause-722] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:42:02,899 [INFO] [160/510] clause-722 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 13:43:56,400 [WARNING] [clause-724] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:46:01,342 [INFO] [161/510] clause-736 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer is restricted from assigning or transferring the agreement'
+2026-10-18 13:46:44,077 [WARNING] [clause-725] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:47:55,259 [INFO] [162/510] clause-724 | Audit Rights | status=success | quote_valid=False | obs='The Client/Buyer loses the right to conduct an audit, which could expose op'
+2026-10-18 13:50:08,372 [INFO] [163/510] clause-750 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to an affili'
+2026-10-18 13:51:44,489 [WARNING] [clause-725] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:51:44,618 [INFO] [164/510] clause-725 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 13:52:51,430 [INFO] [165/510] clause-764 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains the right to assign this agreement to affiliates, subsidia'
+2026-10-18 13:55:05,191 [INFO] [166/510] clause-765 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement without the '
+2026-10-18 13:56:35,697 [INFO] [167/510] clause-774 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the ability to assign or transfer the agreement to affilia'
+2026-10-18 13:57:51,662 [WARNING] [clause-775] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 13:59:39,238 [INFO] [168/510] clause-776 | Anti-Assignment | status=success | quote_valid=False | obs='The Client gains the right to grant sublicenses to Third Parties, but this '
+2026-10-18 14:01:25,858 [INFO] [169/510] clause-778 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the ability to assign or transfer the agreement to an affi'
+2026-10-18 14:02:47,409 [INFO] [170/510] clause-775 | Anti-Assignment | status=success | quote_valid=True | obs='The Client/Buyer loses the ability to assign or transfer the agreement to a'
+2026-10-18 14:04:24,039 [INFO] [171/510] clause-810 | Non-Compete | status=success | quote_valid=True | obs='The Client is restricted from advertising on a Neoforma Site for any Vertic'
+2026-10-18 14:06:26,044 [WARNING] [clause-811] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:07:26,992 [INFO] [172/510] clause-812 | Non-Compete | status=success | quote_valid=True | obs='The Client is restricted from entering into agreements with Neoforma Compet'
+2026-10-18 14:09:24,220 [WARNING] [clause-814] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:10:43,435 [INFO] [173/510] clause-811 | Non-Compete | status=success | quote_valid=True | obs='The Client is restricted from entering into agreements with a VerticalNet C'
+2026-10-18 14:12:27,456 [WARNING] [clause-817] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:14:24,864 [WARNING] [clause-814] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:14:25,073 [INFO] [174/510] clause-814 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 14:15:43,685 [WARNING] [clause-824] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:17:28,318 [WARNING] [clause-817] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:17:28,836 [INFO] [175/510] clause-817 | No-Solicit of Customers | status=failed | quote_valid=False | obs=''
+2026-10-18 14:19:25,578 [WARNING] [clause-836] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:20:44,243 [WARNING] [clause-824] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:20:44,572 [INFO] [176/510] clause-824 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 14:22:15,571 [INFO] [177/510] clause-839 | Non-Compete | status=success | quote_valid=True | obs='The Client gains the right to frame pages of the Co-Branded Career Center w'
+2026-10-18 14:24:26,122 [WARNING] [clause-836] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:24:26,250 [INFO] [178/510] clause-836 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 14:25:45,066 [WARNING] [clause-852] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:26:30,806 [INFO] [179/510] clause-853 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer has the right to conduct audits at their discretion, which'
+2026-10-18 14:29:26,820 [WARNING] [clause-854] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:30:07,766 [INFO] [180/510] clause-852 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to expect the Vendor to assist in the transition'
+2026-10-18 14:31:31,393 [WARNING] [clause-855] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:34:27,600 [WARNING] [clause-854] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:34:27,725 [INFO] [181/510] clause-854 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 14:35:07,999 [WARNING] [clause-876] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:36:32,404 [WARNING] [clause-855] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:36:32,661 [INFO] [182/510] clause-855 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 14:39:28,342 [WARNING] [clause-879] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:40:08,316 [WARNING] [clause-876] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:40:08,473 [INFO] [183/510] clause-876 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 14:41:33,044 [WARNING] [clause-880] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:43:27,589 [INFO] [184/510] clause-884 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to have COFS or its representatives audit their '
+2026-10-18 14:44:28,637 [WARNING] [clause-879] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:44:28,733 [INFO] [185/510] clause-879 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 14:46:33,455 [WARNING] [clause-880] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:46:33,573 [INFO] [186/510] clause-880 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 14:48:27,852 [WARNING] [clause-886] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:49:29,301 [WARNING] [clause-900] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:51:33,797 [WARNING] [clause-903] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:52:33,760 [INFO] [187/510] clause-886 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign or transfer the agreement to affiliate'
+2026-10-18 14:54:29,823 [WARNING] [clause-900] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:54:29,980 [INFO] [188/510] clause-900 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 14:56:28,241 [INFO] [189/510] clause-903 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to a minimum annual commitment of $3,000,000 wit'
+2026-10-18 14:57:34,104 [WARNING] [clause-905] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 14:59:30,271 [WARNING] [clause-911] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:01:28,558 [WARNING] [clause-912] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:02:32,835 [INFO] [190/510] clause-905 | Post-Termination Services | status=success | quote_valid=True | obs='The Client gains the right to retain any Approved Content that includes Zyn'
+2026-10-18 15:04:30,675 [WARNING] [clause-911] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:04:30,886 [INFO] [191/510] clause-911 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 15:06:29,131 [WARNING] [clause-912] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:06:29,349 [INFO] [192/510] clause-912 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 15:07:33,107 [WARNING] [clause-927] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:09:31,325 [WARNING] [clause-928] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:11:29,675 [WARNING] [clause-929] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:12:33,662 [WARNING] [clause-927] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:12:33,892 [INFO] [193/510] clause-927 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:14:31,746 [WARNING] [clause-928] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:14:31,890 [INFO] [194/510] clause-928 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:16:30,110 [WARNING] [clause-929] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:16:30,283 [INFO] [195/510] clause-929 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:17:34,445 [WARNING] [clause-930] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:19:32,696 [WARNING] [clause-931] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:21:11,338 [INFO] [196/510] clause-930 | Price Restrictions | status=success | quote_valid=True | obs='The Client gains the right to have its commission reduced if the price of f'
+2026-10-18 15:21:11,455 [INFO] [197/510] clause-932 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to receive a minimum commission of $0.05 per MMB'
+2026-10-18 15:24:33,639 [WARNING] [clause-931] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:24:33,846 [INFO] [198/510] clause-931 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:26:11,706 [WARNING] [clause-945] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:26:11,713 [WARNING] [clause-944] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:29:34,313 [WARNING] [clause-953] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:30:40,662 [INFO] [199/510] clause-945 | Anti-Assignment | status=success | quote_valid=True | obs='The Client gains limited rights to assign the agreement, but only with the '
+2026-10-18 15:31:12,510 [WARNING] [clause-944] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:31:12,568 [INFO] [200/510] clause-944 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 15:34:35,158 [WARNING] [clause-953] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:34:35,528 [INFO] [201/510] clause-953 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 15:35:41,040 [WARNING] [clause-978] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:36:12,759 [WARNING] [clause-979] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:39:35,982 [WARNING] [clause-987] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:40:33,626 [INFO] [202/510] clause-978 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the ability to assign or transfer the agreement to an affi'
+2026-10-18 15:41:13,071 [WARNING] [clause-979] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:41:13,159 [INFO] [203/510] clause-979 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:44:36,507 [WARNING] [clause-987] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:44:36,680 [INFO] [204/510] clause-987 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:45:34,311 [WARNING] [clause-1004] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:46:13,357 [WARNING] [clause-1005] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:49:37,094 [WARNING] [clause-1006] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:50:35,036 [WARNING] [clause-1004] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:50:35,443 [INFO] [205/510] clause-1004 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 15:51:13,697 [WARNING] [clause-1005] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:51:13,729 [INFO] [206/510] clause-1005 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:54:37,659 [WARNING] [clause-1006] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:54:39,699 [INFO] [207/510] clause-1006 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 15:55:35,792 [WARNING] [clause-1034] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:56:13,767 [WARNING] [clause-1045] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 15:59:40,195 [WARNING] [clause-1046] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:00:36,003 [WARNING] [clause-1034] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:00:36,071 [INFO] [208/510] clause-1034 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 16:01:13,841 [WARNING] [clause-1045] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:01:13,883 [INFO] [209/510] clause-1045 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:04:40,832 [WARNING] [clause-1046] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:04:40,969 [INFO] [210/510] clause-1046 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:05:36,108 [WARNING] [clause-1068] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:06:14,023 [WARNING] [clause-1086] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:09:41,512 [WARNING] [clause-1089] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:10:36,537 [WARNING] [clause-1068] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:10:36,785 [INFO] [211/510] clause-1068 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:11:14,394 [WARNING] [clause-1086] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:11:14,546 [INFO] [212/510] clause-1086 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 16:14:41,981 [WARNING] [clause-1089] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:14:42,180 [INFO] [213/510] clause-1089 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:15:37,248 [WARNING] [clause-1095] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:16:14,795 [WARNING] [clause-1096] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:19:42,554 [WARNING] [clause-1099] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:20:24,771 [INFO] [214/510] clause-1096 | Audit Rights | status=success | quote_valid=True | obs="The Client/Buyer gains the right to audit the Distributor's books and recor"
+2026-10-18 16:20:37,682 [WARNING] [clause-1095] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:20:37,788 [INFO] [215/510] clause-1095 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 16:24:43,021 [WARNING] [clause-1099] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:24:43,124 [INFO] [216/510] clause-1099 | Warranty Duration | status=failed | quote_valid=False | obs=''
+2026-10-18 16:25:24,984 [WARNING] [clause-1115] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:25:38,108 [WARNING] [clause-1116] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:29:43,429 [WARNING] [clause-1117] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:30:25,583 [WARNING] [clause-1115] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:30:25,722 [INFO] [217/510] clause-1115 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 16:30:38,637 [WARNING] [clause-1116] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:30:38,745 [INFO] [218/510] clause-1116 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:34:44,051 [WARNING] [clause-1117] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:34:44,285 [INFO] [219/510] clause-1117 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:35:26,166 [WARNING] [clause-1118] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:35:38,930 [WARNING] [clause-1119] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:39:11,374 [INFO] [220/510] clause-1120 | Audit Rights | status=success | quote_valid=True | obs="The Client/Buyer loses the right to conduct an audit on the Vendor's (Custo"
+2026-10-18 16:40:26,701 [WARNING] [clause-1118] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:40:26,843 [INFO] [221/510] clause-1118 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 16:40:39,104 [WARNING] [clause-1119] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:40:39,286 [INFO] [222/510] clause-1119 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 16:44:11,656 [WARNING] [clause-1121] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:45:04,287 [INFO] [223/510] clause-1149 | Audit Rights | status=success | quote_valid=True | obs='The Client gains the right to audit the Vendor, which could expose the Vend'
+2026-10-18 16:45:27,222 [WARNING] [clause-1123] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:49:12,091 [WARNING] [clause-1121] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:49:12,224 [INFO] [224/510] clause-1121 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 16:49:57,497 [INFO] [225/510] clause-1123 | Audit Rights | status=success | quote_valid=True | obs='The Client loses the right to conduct an audit, which could expose the Clie'
+2026-10-18 16:50:04,385 [WARNING] [clause-1159] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:53:57,434 [INFO] [226/510] clause-1159 | Change Of Control | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement upon receiving [***] '
+2026-10-18 16:54:12,406 [WARNING] [clause-1160] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:54:57,571 [WARNING] [clause-1161] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:56:48,657 [INFO] [227/510] clause-1162 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains no specific rights or protections regarding a minimum comm'
+2026-10-18 16:59:12,650 [WARNING] [clause-1160] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:59:12,791 [INFO] [228/510] clause-1160 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 16:59:57,742 [WARNING] [clause-1161] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 16:59:57,879 [INFO] [229/510] clause-1161 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 17:01:48,868 [WARNING] [clause-1163] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:04:13,165 [WARNING] [clause-1165] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:04:58,307 [WARNING] [clause-1166] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:05:52,369 [INFO] [230/510] clause-1163 | Minimum Commitment | status=success | quote_valid=True | obs='The Client gains the right to a firm purchase order for each Production Sch'
+2026-10-18 17:09:13,758 [WARNING] [clause-1165] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:09:13,914 [INFO] [231/510] clause-1165 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 17:09:59,102 [WARNING] [clause-1166] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:09:59,510 [INFO] [232/510] clause-1166 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 17:10:52,623 [WARNING] [clause-1167] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:14:14,303 [WARNING] [clause-1200] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:14:53,421 [INFO] [233/510] clause-1167 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to conduct an audit, which could be a sign'
+2026-10-18 17:15:00,305 [WARNING] [clause-1201] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:19:15,428 [WARNING] [clause-1200] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:19:17,174 [INFO] [234/510] clause-1200 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 17:19:53,597 [WARNING] [clause-1210] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:20:00,334 [WARNING] [clause-1201] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:20:00,403 [INFO] [235/510] clause-1201 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 17:24:17,524 [WARNING] [clause-1211] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:24:53,936 [WARNING] [clause-1210] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:24:54,113 [INFO] [236/510] clause-1210 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 17:25:00,384 [WARNING] [clause-1212] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:29:18,054 [WARNING] [clause-1211] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:29:19,744 [INFO] [237/510] clause-1211 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 17:29:54,506 [WARNING] [clause-1213] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:30:00,427 [WARNING] [clause-1212] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:30:00,506 [INFO] [238/510] clause-1212 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 17:34:19,992 [WARNING] [clause-1226] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:34:54,882 [WARNING] [clause-1213] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:34:55,039 [INFO] [239/510] clause-1213 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 17:35:00,524 [WARNING] [clause-1241] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:38:38,252 [INFO] [240/510] clause-1226 | Anti-Assignment | status=success | quote_valid=True | obs='The Client loses the right to assign the agreement to affiliates, subsidiar'
+2026-10-18 17:39:55,376 [WARNING] [clause-1254] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:40:00,586 [WARNING] [clause-1241] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:40:00,653 [INFO] [241/510] clause-1241 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 17:43:38,456 [WARNING] [clause-1255] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:44:55,786 [WARNING] [clause-1254] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:44:55,894 [INFO] [242/510] clause-1254 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 17:45:00,628 [WARNING] [clause-1257] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:48:38,829 [WARNING] [clause-1255] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:48:38,949 [INFO] [243/510] clause-1255 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 17:49:56,213 [WARNING] [clause-1270] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:50:00,647 [WARNING] [clause-1257] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:50:00,705 [INFO] [244/510] clause-1257 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 17:53:39,258 [WARNING] [clause-1294] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:54:56,700 [WARNING] [clause-1270] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:54:56,896 [INFO] [245/510] clause-1270 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 17:55:00,714 [WARNING] [clause-1296] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:58:39,746 [WARNING] [clause-1294] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 17:58:39,873 [INFO] [246/510] clause-1294 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 17:59:57,249 [WARNING] [clause-1315] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:00:00,831 [WARNING] [clause-1296] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:00:01,083 [INFO] [247/510] clause-1296 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:03:40,241 [WARNING] [clause-1316] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:04:57,694 [WARNING] [clause-1315] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:04:57,824 [INFO] [248/510] clause-1315 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 18:05:01,357 [WARNING] [clause-1317] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:08:40,798 [WARNING] [clause-1316] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:08:40,984 [INFO] [249/510] clause-1316 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 18:09:58,139 [WARNING] [clause-1318] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:10:01,377 [WARNING] [clause-1317] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:10:01,454 [INFO] [250/510] clause-1317 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 18:13:41,490 [WARNING] [clause-1320] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:14:58,591 [WARNING] [clause-1318] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:14:58,748 [INFO] [251/510] clause-1318 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 18:15:01,442 [WARNING] [clause-1321] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:18:41,893 [WARNING] [clause-1320] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:18:42,042 [INFO] [252/510] clause-1320 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 18:19:59,066 [WARNING] [clause-1322] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:20:01,470 [WARNING] [clause-1321] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:20:01,538 [INFO] [253/510] clause-1321 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 18:23:42,490 [WARNING] [clause-1328] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:24:59,538 [WARNING] [clause-1322] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:24:59,716 [INFO] [254/510] clause-1322 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 18:25:01,573 [WARNING] [clause-1329] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:28:42,992 [WARNING] [clause-1328] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:28:43,137 [INFO] [255/510] clause-1328 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:30:00,010 [WARNING] [clause-1330] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:30:01,612 [WARNING] [clause-1329] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:30:01,696 [INFO] [256/510] clause-1329 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:33:43,453 [WARNING] [clause-1348] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:34:00,416 [INFO] [257/510] clause-1330 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to unilaterally conduct audits at any time'
+2026-10-18 18:35:01,871 [WARNING] [clause-1349] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:38:43,850 [WARNING] [clause-1348] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:38:44,040 [INFO] [258/510] clause-1348 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 18:39:00,677 [WARNING] [clause-1350] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:40:02,364 [WARNING] [clause-1349] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:40:02,628 [INFO] [259/510] clause-1349 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 18:43:44,596 [WARNING] [clause-1353] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:44:01,083 [WARNING] [clause-1350] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:44:01,216 [INFO] [260/510] clause-1350 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 18:45:03,196 [WARNING] [clause-1354] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:48:45,417 [WARNING] [clause-1353] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:48:45,767 [INFO] [261/510] clause-1353 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:49:01,594 [WARNING] [clause-1355] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:50:03,643 [WARNING] [clause-1354] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:50:03,822 [INFO] [262/510] clause-1354 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:53:46,652 [WARNING] [clause-1356] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:54:01,998 [WARNING] [clause-1355] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:54:02,126 [INFO] [263/510] clause-1355 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:55:04,127 [WARNING] [clause-1357] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:58:47,125 [WARNING] [clause-1356] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 18:58:47,295 [INFO] [264/510] clause-1356 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 18:59:02,323 [WARNING] [clause-1377] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:00:04,605 [WARNING] [clause-1357] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:00:04,799 [INFO] [265/510] clause-1357 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 19:03:47,701 [WARNING] [clause-1380] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:04:02,690 [WARNING] [clause-1377] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:04:02,752 [INFO] [266/510] clause-1377 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 19:05:05,707 [WARNING] [clause-1382] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:08:48,131 [WARNING] [clause-1380] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:08:48,302 [INFO] [267/510] clause-1380 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 19:09:02,736 [WARNING] [clause-1387] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:10:06,149 [WARNING] [clause-1382] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:10:06,381 [INFO] [268/510] clause-1382 | Change Of Control | status=failed | quote_valid=False | obs=''
+2026-10-18 19:13:48,721 [WARNING] [clause-1389] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:14:02,839 [WARNING] [clause-1387] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:14:02,928 [INFO] [269/510] clause-1387 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:15:06,901 [WARNING] [clause-1391] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:18:49,209 [WARNING] [clause-1389] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:18:49,379 [INFO] [270/510] clause-1389 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:19:03,023 [WARNING] [clause-1392] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:20:07,318 [WARNING] [clause-1391] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:20:07,451 [INFO] [271/510] clause-1391 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:23:49,704 [WARNING] [clause-1393] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:24:03,165 [WARNING] [clause-1392] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:24:03,255 [INFO] [272/510] clause-1392 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:25:07,783 [WARNING] [clause-1395] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:28:50,110 [WARNING] [clause-1393] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:28:50,272 [INFO] [273/510] clause-1393 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:29:03,539 [WARNING] [clause-1398] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:30:08,285 [WARNING] [clause-1395] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:30:08,427 [INFO] [274/510] clause-1395 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:33:50,620 [WARNING] [clause-1403] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:34:03,680 [WARNING] [clause-1398] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:34:03,749 [INFO] [275/510] clause-1398 | Minimum Commitment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:35:08,581 [WARNING] [clause-1404] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:38:52,738 [WARNING] [clause-1403] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:38:52,933 [INFO] [276/510] clause-1403 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 19:39:03,894 [WARNING] [clause-1406] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:40:08,816 [WARNING] [clause-1404] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:40:08,996 [INFO] [277/510] clause-1404 | Non-Compete | status=failed | quote_valid=False | obs=''
+2026-10-18 19:43:53,429 [WARNING] [clause-1407] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:44:04,088 [WARNING] [clause-1406] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:44:04,128 [INFO] [278/510] clause-1406 | Anti-Assignment | status=failed | quote_valid=False | obs=''
+2026-10-18 19:45:09,338 [WARNING] [clause-1408] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:48:45,310 [INFO] [279/510] clause-1409 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to conduct an audit, which could expose th'
+2026-10-18 19:48:53,708 [WARNING] [clause-1407] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:48:53,764 [INFO] [280/510] clause-1407 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 19:50:09,679 [WARNING] [clause-1408] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:50:09,730 [INFO] [281/510] clause-1408 | Post-Termination Services | status=failed | quote_valid=False | obs=''
+2026-10-18 19:53:39,560 [INFO] [282/510] clause-1412 | Audit Rights | status=success | quote_valid=True | obs='The Client/Buyer loses the right to conduct audits, which could limit their'
+2026-10-18 19:53:45,440 [WARNING] [clause-1410] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:53:53,758 [WARNING] [clause-1411] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:58:39,857 [WARNING] [clause-1413] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:58:45,461 [WARNING] [clause-1410] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:58:45,490 [INFO] [283/510] clause-1410 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 19:58:53,790 [WARNING] [clause-1411] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 19:58:53,797 [INFO] [284/510] clause-1411 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 20:03:40,566 [WARNING] [clause-1413] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:03:40,777 [INFO] [285/510] clause-1413 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 20:03:45,507 [WARNING] [clause-1414] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:03:53,813 [WARNING] [clause-1415] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:08:41,263 [WARNING] [clause-1416] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:08:45,529 [WARNING] [clause-1414] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:08:45,590 [INFO] [286/510] clause-1414 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 20:08:53,831 [WARNING] [clause-1415] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:08:53,837 [INFO] [287/510] clause-1415 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 20:13:41,721 [WARNING] [clause-1416] Retry exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:13:41,836 [INFO] [288/510] clause-1416 | Audit Rights | status=failed | quote_valid=False | obs=''
+2026-10-18 20:13:45,593 [WARNING] [clause-1417] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)
+2026-10-18 20:13:53,851 [WARNING] [clause-1418] Attempt 1 exception: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=300)

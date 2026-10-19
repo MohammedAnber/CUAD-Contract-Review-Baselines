@@ -1,0 +1,22 @@
+2026-10-18 21:53:03,737 [INFO] === Starting Phase 2 (v3 - Dedicated Fast Sequential): High-Priority Clauses ===
+2026-10-18 21:53:03,739 [INFO] Full-Core Dedicated Sequential Processing | num_predict: 450
+2026-10-18 21:53:03,739 [INFO] Target Priority Categories: ['Anti-Assignment', 'Audit Rights', 'Post-Termination Services', 'Minimum Commitment', 'Change Of Control', 'Non-Compete', 'Warranty Duration', 'No-Solicit of Customers', 'Liquidated Damages', 'Price Restrictions']
+2026-10-18 21:53:03,739 [INFO] Output File: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_v3_priority_results.jsonl
+2026-10-18 21:53:03,825 [INFO] Filtered 510 High-Priority clauses across Tier 1 & Tier 2.
+2026-10-18 21:53:03,836 [INFO] Resuming: 165 already successfully processed.
+2026-10-18 21:55:55,581 [INFO] [166/510] clause-477 | Anti-Assignment | time=171.7s | status=success | quote_valid=True | obs='The Client gains significant protection against potential adverse actions b'
+2026-10-18 21:57:55,690 [INFO] [167/510] clause-485 | Change Of Control | time=120.1s | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement if the SMBC Unit-Hold'
+2026-10-18 22:00:58,520 [INFO] [168/510] clause-493 | Audit Rights | time=182.8s | status=success | quote_valid=True | obs='The Client/Buyer gains significant rights to conduct thorough audits of Moe'
+2026-10-18 22:03:16,300 [INFO] [169/510] clause-515 | Change Of Control | time=137.8s | status=success | quote_valid=False | obs='The Client gains the right to terminate the agreement if a change of contro'
+2026-10-18 22:04:56,266 [INFO] [170/510] clause-532 | Anti-Assignment | time=99.9s | status=success | quote_valid=True | obs='The Client loses the right to assign this agreement to an affiliate, subsid'
+2026-10-18 22:06:35,221 [INFO] [171/510] clause-543 | Change Of Control | time=98.9s | status=success | quote_valid=True | obs='The Client gains the right to require consent for any change of control tha'
+2026-10-18 22:07:24,804 [INFO] [172/510] clause-544 | Change Of Control | time=49.6s | status=success | quote_valid=True | obs='The Client gains the right to require prior written consent from the Vendor'
+2026-10-18 22:09:18,659 [INFO] [173/510] clause-545 | Anti-Assignment | time=113.8s | status=success | quote_valid=True | obs='The Client/Buyer is restricted from assigning or transferring the agreement'
+2026-10-18 22:14:20,036 [INFO] [174/510] clause-549 | Warranty Duration | time=301.3s | status=success | quote_valid=True | obs='The Client gains the right to reject and return non-conforming products, ob'
+2026-10-18 22:19:39,715 [INFO] [175/510] clause-571 | Change Of Control | time=319.6s | status=success | quote_valid=True | obs='The Client gains the right to terminate the agreement if the Vendor (Licens'
+2026-10-18 22:23:34,399 [INFO] [176/510] clause-579 | Anti-Assignment | time=234.7s | status=success | quote_valid=True | obs='The Client gains the right to assign its rights in valid Redistributor Agre'
+2026-10-18 22:28:02,716 [INFO] [177/510] clause-589 | Warranty Duration | time=268.3s | status=success | quote_valid=True | obs='The Client gains a 12-month warranty period for the media storage of the Li'
+2026-10-18 22:34:38,487 [INFO] [178/510] clause-591 | Warranty Duration | time=395.7s | status=success | quote_valid=True | obs='The Client gains the right to have the Licensor provide a correction or met'
+2026-10-18 22:37:36,676 [INFO] [179/510] clause-616 | Non-Compete | time=178.2s | status=success | quote_valid=False | obs='The Client is restricted from engaging in certain competitive activities wi'
+2026-10-18 22:40:40,970 [INFO] [180/510] clause-617 | Anti-Assignment | time=184.3s | status=success | quote_valid=True | obs='The Client gains the right to assign the agreement to a third party in the '
+2026-10-18 22:44:36,052 [INFO] [181/510] clause-618 | Anti-Assignment | time=235.0s | status=success | quote_valid=True | obs='The Client gains the right to sublicense its rights to a wholly-owned Subsi'

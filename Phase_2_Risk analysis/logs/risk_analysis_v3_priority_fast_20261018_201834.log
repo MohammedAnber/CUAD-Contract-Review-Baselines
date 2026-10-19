@@ -1,0 +1,17 @@
+2026-10-18 20:18:34,843 [INFO] === Starting Phase 2 (v3 - Dedicated Fast Sequential): High-Priority Clauses ===
+2026-10-18 20:18:34,844 [INFO] Full-Core Dedicated Sequential Processing | num_predict: 450
+2026-10-18 20:18:34,844 [INFO] Target Priority Categories: ['Anti-Assignment', 'Audit Rights', 'Post-Termination Services', 'Minimum Commitment', 'Change Of Control', 'Non-Compete', 'Warranty Duration', 'No-Solicit of Customers', 'Liquidated Damages', 'Price Restrictions']
+2026-10-18 20:18:34,844 [INFO] Output File: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_v3_priority_results.jsonl
+2026-10-18 20:18:35,047 [INFO] Filtered 510 High-Priority clauses across Tier 1 & Tier 2.
+2026-10-18 20:18:35,071 [INFO] Resuming: 154 already successfully processed.
+2026-10-18 20:22:03,738 [INFO] [155/510] clause-75 | Post-Termination Services | time=208.7s | status=success | quote_valid=True | obs='The Client gains the right to receive post-termination services from Corio '
+2026-10-18 20:24:04,892 [INFO] [156/510] clause-150 | Anti-Assignment | time=121.1s | status=success | quote_valid=True | obs='The Client gains the right to assign the agreement to an entity that acquir'
+2026-10-18 20:26:36,672 [INFO] [157/510] clause-221 | Post-Termination Services | time=151.8s | status=success | quote_valid=True | obs='The Client gains the right to specify on all public-facing materials that t'
+2026-10-18 20:29:04,921 [INFO] [158/510] clause-247 | Change Of Control | time=148.2s | status=success | quote_valid=False | obs='The Client gains the right to terminate the agreement if the Vendor engages'
+2026-10-18 20:31:33,136 [INFO] [159/510] clause-351 | Anti-Assignment | time=148.2s | status=success | quote_valid=False | obs='The Client gains the right to assign or transfer the agreement to its affil'
+2026-10-18 20:33:26,575 [INFO] [160/510] clause-362 | Post-Termination Services | time=113.4s | status=success | quote_valid=True | obs='The Client/Buyer is at risk of losing access to certain Biologics License A'
+2026-10-18 20:35:05,307 [INFO] [161/510] clause-375 | Post-Termination Services | time=98.7s | status=success | quote_valid=True | obs="The Client/Buyer gains the right to receive all of the Vendor's right, titl"
+2026-10-18 20:44:38,857 [INFO] [162/510] clause-376 | Post-Termination Services | time=573.5s | status=success | quote_valid=False | obs='The Client gains the right to continue selling its inventory for a limited '
+2026-10-18 20:50:44,725 [INFO] [163/510] clause-377 | Post-Termination Services | time=365.8s | status=success | quote_valid=False | obs='The Client gains the right to receive post-termination assistance from the '
+2026-10-18 20:55:06,191 [INFO] [164/510] clause-401 | Non-Compete | time=261.4s | status=success | quote_valid=True | obs='The Client is restricted from competing with entities that invest in, acqui'
+2026-10-18 20:58:41,263 [INFO] [165/510] clause-402 | Non-Compete | time=215.0s | status=success | quote_valid=True | obs='The Client is severely restricted from competing with the Vendor or offerin'

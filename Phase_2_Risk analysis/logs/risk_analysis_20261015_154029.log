@@ -1,0 +1,66 @@
+2026-10-15 15:40:29,456 [INFO] === Starting Phase 2: Risk Allocation Analysis ===
+2026-10-15 15:40:29,457 [INFO] Model: qwen2.5:3b | Temperature: 0 | Perspective: Client/Buyer
+2026-10-15 15:40:29,458 [INFO] Target Clause Categories: ['Cap On Liability', 'Uncapped Liability', 'Termination For Convenience', 'Exclusivity', 'IP Ownership Assignment']
+2026-10-15 15:40:29,458 [INFO] Output File: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_results.jsonl
+2026-10-15 15:40:29,559 [INFO] Loaded 1679 clause texts from test metadata.
+2026-10-15 15:40:29,680 [INFO] Loaded 1679 classification records.
+2026-10-15 15:40:29,682 [INFO] Filtered 285 clauses belonging to the 5 target categories.
+2026-10-15 15:40:29,701 [INFO] Resuming: 233 clauses already analyzed in risk_analysis_results.jsonl.
+2026-10-15 15:42:11,975 [INFO] [234/285] clause-2060 | Type: IP Ownership Assignment | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:43:06,299 [INFO] [235/285] clause-2068 | Type: Termination For Convenience | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 15:44:12,045 [INFO] [236/285] clause-2074 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 15:45:17,021 [INFO] [237/285] clause-2094 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:46:28,089 [INFO] [238/285] clause-2100 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:47:21,472 [INFO] [239/285] clause-2101 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:48:37,461 [INFO] [clause-2102] JSON parse failed on attempt 1. Retrying once...
+2026-10-15 15:49:26,648 [INFO] [240/285] clause-2102 | Type: Cap On Liability | Status: failed | Valid Quote: False | Risk: N/A
+2026-10-15 15:50:30,398 [INFO] [clause-2103] JSON parse failed on attempt 1. Retrying once...
+2026-10-15 15:51:23,256 [INFO] [241/285] clause-2103 | Type: Cap On Liability | Status: failed | Valid Quote: False | Risk: N/A
+2026-10-15 15:52:11,875 [INFO] [242/285] clause-2118 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:52:52,072 [INFO] [243/285] clause-2119 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 15:53:48,430 [INFO] [244/285] clause-2120 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:54:22,921 [INFO] [245/285] clause-2135 | Type: Termination For Convenience | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 15:55:21,592 [INFO] [246/285] clause-2161 | Type: Uncapped Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 15:56:38,991 [INFO] [clause-2162] JSON parse failed on attempt 1. Retrying once...
+2026-10-15 15:57:28,250 [INFO] [247/285] clause-2162 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 15:58:16,139 [INFO] [248/285] clause-2163 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 15:59:07,824 [INFO] [249/285] clause-2164 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:00:08,045 [INFO] [250/285] clause-2165 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:00:37,120 [INFO] [251/285] clause-2166 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:02:04,401 [INFO] [clause-2167] JSON parse failed on attempt 1. Retrying once...
+2026-10-15 16:02:54,263 [INFO] [252/285] clause-2167 | Type: Cap On Liability | Status: failed | Valid Quote: False | Risk: N/A
+2026-10-15 16:03:32,772 [INFO] [253/285] clause-2168 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:04:23,245 [INFO] [254/285] clause-2182 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:04:59,962 [INFO] [255/285] clause-2234 | Type: IP Ownership Assignment | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:06:08,579 [INFO] [256/285] clause-2281 | Type: IP Ownership Assignment | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:06:57,986 [INFO] [257/285] clause-2282 | Type: IP Ownership Assignment | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:07:53,708 [INFO] [258/285] clause-2289 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:08:46,778 [INFO] [259/285] clause-2290 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:09:40,184 [INFO] [260/285] clause-2311 | Type: IP Ownership Assignment | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:10:20,565 [INFO] [261/285] clause-2312 | Type: IP Ownership Assignment | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:10:56,761 [INFO] [262/285] clause-2338 | Type: Exclusivity | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:11:45,026 [INFO] [263/285] clause-2349 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:12:36,690 [INFO] [264/285] clause-2351 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:13:51,254 [INFO] [265/285] clause-2353 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:15:03,881 [INFO] [266/285] clause-2371 | Type: Termination For Convenience | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:16:12,277 [INFO] [267/285] clause-2383 | Type: Exclusivity | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:17:12,518 [INFO] [268/285] clause-2395 | Type: Exclusivity | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:18:20,276 [INFO] [269/285] clause-2414 | Type: Termination For Convenience | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:19:12,785 [INFO] [270/285] clause-2437 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:20:25,124 [INFO] [271/285] clause-2438 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:21:03,165 [INFO] [272/285] clause-2460 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:21:50,694 [INFO] [273/285] clause-2461 | Type: Cap On Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:22:38,477 [INFO] [274/285] clause-2478 | Type: Termination For Convenience | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:23:32,325 [INFO] [275/285] clause-2479 | Type: Uncapped Liability | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:24:11,811 [INFO] [276/285] clause-2514 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:25:03,716 [INFO] [277/285] clause-2515 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:26:05,032 [INFO] [278/285] clause-2534 | Type: Exclusivity | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:27:01,398 [INFO] [279/285] clause-2536 | Type: Exclusivity | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:27:46,543 [INFO] [280/285] clause-2538 | Type: Exclusivity | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:28:35,431 [INFO] [281/285] clause-2540 | Type: Termination For Convenience | Status: success | Valid Quote: True | Risk: HIGH_RISK
+2026-10-15 16:29:17,345 [INFO] [282/285] clause-2545 | Type: Exclusivity | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:30:26,007 [INFO] [283/285] clause-2546 | Type: Termination For Convenience | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:31:26,238 [INFO] [284/285] clause-2551 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:32:11,049 [INFO] [285/285] clause-2552 | Type: Cap On Liability | Status: success | Valid Quote: False | Risk: HIGH_RISK
+2026-10-15 16:32:11,088 [INFO] === Phase 2: Risk Allocation Analysis Complete ===
+2026-10-15 16:32:11,092 [INFO] Total processed: 285/285 | Failures: 3 | Output saved to: D:\downloads_\AI-Contract-Review-App-baseline-json-risk-generation\risk_analysis_results.jsonl
